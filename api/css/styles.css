@@ -1,0 +1,1525 @@
+/* Cotización Avalia */
+.content-wrapper{
+	padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.content {
+    padding: 10px 25px;
+  }
+html,body,iframe {
+    background-color: rgb(255, 255, 255);
+    font-family: sans-serif;
+    height: 100%;
+
+}
+.ed {
+
+    /* position: absolute; */
+    width: 412px;
+    height: 85px;
+    left: 166px;
+    top: 168px;
+    
+    font-family: Baloo Paaji;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 48px;
+    line-height: 85px;
+    /* identical to box height */
+    
+    letter-spacing: 0.05em;
+    
+    color: #ffffff;
+}
+/* Icono de agregar cliente */
+.adduser{
+        /* position: absolute; */
+    width: 18px;
+    height: 18px;
+    left: 24px;
+
+
+   
+    top: 4.18%;
+    
+}
+
+/* Agregar Cliente */
+
+.tittle {
+    /* position: absolute; */
+    left: 75px;
+    right: 62.18%;
+    top: 4.18%;
+    bottom: 86.81%;
+
+    font-family: 'Archivo', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 26px;
+
+    color: #365078;
+
+    opacity: 0.7;
+}
+/* *Cliente: */
+
+.clienttitle{
+    /* position: absolute; */
+    width: 70px;
+    height: 27px;
+    left: 46px;
+    top: 78px;
+
+    font-family: Archivo;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 17px;
+
+    color: #365078;
+}
+
+
+    /* Primer Nombre */
+
+.firstnamefield{
+
+    /* position: absolute; */
+    width: 120px;
+    height: 29px;
+    left: 47px;
+    top: 97px;
+
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    box-sizing: border-box;
+    border-radius: 15px;
+}
+
+    /* Segundo nombre */
+.secondnamefield{
+
+    /* position: absolute; */
+    width: 129px;
+    height: 29px;
+    left: 172px;
+    top: 100px;
+
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    box-sizing: border-box;
+    border-radius: 15px;
+}
+
+/* Primer apellido */
+
+.firstlastname{
+    /* position: absolute; */
+    width: 122px;
+    height: 28px;
+    left: 45px;
+    top: 134px;
+
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    box-sizing: border-box;
+    border-radius: 15px;
+}
+
+
+/* Segundo apellido */
+
+.secondlastname{
+    /* position: absolute; */
+    width: 129px;
+    height: 29px;
+    left: 172px;
+    top: 136px;
+
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    box-sizing: border-box;
+    border-radius: 15px;
+}
+
+/* Apellido de casado/a */
+
+.marriedname{
+    /* position: absolute; */
+    width: 120px;
+    height: 29px;
+    left: 47px;
+    top: 167px;
+
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    box-sizing: border-box;
+    border-radius: 15px;
+}
+/* Correo electronico */
+
+.mail{
+    /* position: absolute; */
+    width: 256px;
+    height: 36px;
+    left: 45px;
+    top: 224px;
+
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    box-sizing: border-box;
+    border-radius: 15px;
+}
+
+
+    /* *Correo de cliente: */
+
+.mail1 {
+    /* position: absolute; */
+    width: 186px;
+    height: 27px;
+    left: 45px;
+    top: 205px;
+
+    font-family: Archivo;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 17px;
+
+    color: #365078;
+}
+
+/* *Teléfono: */
+
+.phonenewusertext{
+    /* position: absolute; */
+    width: 186px;
+    height: 27px;
+    left: 47px;
+    top: 273px;
+
+    font-family: Archivo;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 17px;
+
+    color: #365078;
+
+}
+
+/* *Dirección: */
+.adressnewusertext{
+
+    /* position: absolute; */
+    width: 186px;
+    height: 27px;
+    left: 48px;
+    top: 338px;
+
+    font-family: Archivo;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 17px;
+
+    color: #365078;
+}
+
+/* Telefono */
+
+.phonenewuser{
+    /* position: absolute; */
+    width: 256px;
+    height: 36px;
+    left: 48px;
+    top: 291px;
+
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    box-sizing: border-box;
+    border-radius: 15px;
+}
+
+/* Dirección */
+
+.adressnewuser{
+    /* position: absolute; */
+    width: 256px;
+    height: 36px;
+    left: 49px;
+    top: 357px;
+
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    box-sizing: border-box;
+    border-radius: 15px;
+}
+
+/* Número de DPI */
+.nodpitext{
+    /* position: absolute; */
+    /* width: 186px; */
+    /* height: 27px; */
+    /* left: 349px;
+    top: 78px; */
+    margin-bottom: 0px;
+
+    font-family: Archivo;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 17px;
+
+    color: #365078;
+
+}
+.nodpitext2{
+    /* position: absolute; */
+    /* width: 186px; */
+    /* height: 27px; */
+    /* left: 349px;
+    top: 78px; */
+    margin-bottom: 0px;
+
+    font-family: Archivo;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 17px;
+
+    color: #365078;
+
+}
+
+/* Fecha de vencimiento DPI: */
+
+.expirationdpitext{
+    /* position: absolute; */
+    width: 201px;
+    height: 27px;
+    left: 349px;
+    top: 146px;
+
+    font-family: Archivo;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 17px;
+
+    color: #365078;
+}
+
+
+/* DPI y Recibo de servicios. */
+
+.dpiandbil{
+    /* position: absolute; */
+    width: 201px;
+    height: 27px;
+    left: 349px;
+    top: 221px;
+
+    font-family: Archivo;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 17px;
+
+    color: #365078;
+}
+
+/* DPI y Recibo de servicios. */
+
+.draganddroptexttitle{
+    /* position: absolute; */
+    /* width: 201px; */
+    /* height: 27px; */
+    left: 349px;
+    top: 221px;
+    margin-bottom: 0px;
+
+    font-family: Archivo;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 17px;
+
+    color: #365078;
+}
+
+/* Arrastra y suelta aquí */
+
+.draganddroptext{
+    /* position: absolute; */
+    width: 159px;
+    height: 27px;
+    left: 398px;
+    top: 277px;
+
+    font-family: Archivo;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 17px;
+
+    color: #365078;
+
+    opacity: 0.5;
+}
+
+/* DPI new user */
+
+.nodpi{
+    /* position: absolute; */
+    width: 256px;
+    height: 36px;
+    left: 349px;
+    top: 97px;
+
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    box-sizing: border-box;
+    border-radius: 15px;
+}
+
+/* Fecha de vencimiento DPI */
+
+.expirationdpi{
+    /* position: absolute; */
+    width: 256px;
+    height: 36px;
+    left: 349px;
+    top: 165px;
+
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    box-sizing: border-box;
+    border-radius: 15px;
+
+}
+/* Arrastra y suelta aquí */
+
+.draganddrop{
+    /* position: absolute; */
+    width: 100%;
+    height: 90px;
+    /* left: 349px;
+    top: 248px; */
+    cursor: pointer;
+    border: 1px dashed rgba(0, 0, 0, 0.5);
+    box-sizing: border-box;
+    border-radius: 15px;
+
+
+}
+.draganddropExcel{
+    /* position: absolute; */
+    width: 100%;
+    height: 50px;
+    /* left: 349px;
+    top: 248px; */
+    cursor: pointer;
+    border: 1px dashed rgba(0, 0, 0, 0.5);
+    box-sizing: border-box;
+    border-radius: 15px;
+
+
+}
+
+/* Botón regresar */
+
+.back{
+    /* position: absolute; */
+    width: 100px;
+    height: 35px;
+    left: 500px;
+    top: 358px;
+    bottom: 7.64%;
+    cursor: pointer;
+    color: rgb(255, 255, 255);
+    background-color: cornflowerblue;
+    border-radius: 20px;
+    border: 0.2ch;
+}
+.guardar{
+    /* position: absolute; */
+    width: 100px;
+    height: 35px;
+    left: 380px;
+    top: 358px;
+    bottom: 1%;
+    cursor: pointer;
+    color: rgb(255, 255, 255);
+    background-color: #365078;
+    border-radius: 20px;
+    border: 0.2ch;
+}
+.adjuntosFHA{
+    /* position: absolute; */
+    width: 150px;
+    height: 35px;
+    left: 380px;
+    top: 358px;
+    bottom: 1%;
+    cursor: pointer;
+    color: rgb(255, 255, 255);
+    background-color: #365078;
+    border-radius: 20px;
+    border: 0.2ch;
+}
+.agregarPagoComision{
+    /* position: absolute; */
+    width: 200px;
+    height: 35px;
+    left: 380px;
+    top: 358px;
+    bottom: 1%;
+    cursor: pointer;
+    color: rgb(255, 255, 255);
+    background-color: #365078;
+    border-radius: 20px;
+    border: 0.2ch;
+}
+.descargar{
+    /* position: absolute; */
+    height: 35px;
+    left: 380px;
+    top: 358px;
+    bottom: 1%;
+    padding-right: 10px;
+    padding-left: 10px;
+    cursor: pointer;
+    color: rgb(255, 255, 255);
+    background-color: #365078;
+    border-radius: 20px;
+    border: 0.2ch;
+}
+.cuotas{
+    /* position: absolute; */
+    width: 150px;
+    height: 35px;
+    left: 380px;
+    top: 358px;
+    bottom: 1%;
+    cursor: pointer;
+    color: rgb(255, 255, 255);
+    background-color: #365078;
+    border-radius: 20px;
+    border: 0.2ch;
+}
+
+/* UPLOAD */
+
+.back1{
+    /* position: absolute; */
+    width: 150px;
+    height: 35px;
+    left: 400px;
+    top: 320px;
+    bottom: 2.64%;
+    cursor: pointer;
+    color: rgb(255, 255, 255);
+    background-color: cornflowerblue;
+    border-radius: 20px;
+    border: 0.2ch;
+}
+
+/*/////////*//*/* Estilos de busqueda principal*//*//////*//*///*//*/
+/* Botón regresar buscador */
+
+/* Group 73 */
+
+.backupicon{
+    /* position: absolute; */
+    width: 30px;
+    height: 30px;
+    left: 43px;
+    top: 23px;
+}
+/*backup*/
+
+.usersearchicon{
+    /* position: absolute; */
+    width: 17px;
+    height: 23px;
+    left: 43px;
+    top: 23px;
+}
+
+/* Busqueda de clientes */
+
+.usersearchitittle{
+    /* position: absolute; */
+    width: 369px;
+    height: 27px;
+    left: 66px;
+    top: 23px;
+    
+    font-family: Archivo;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 26px;
+    
+    
+    
+    color: #365078;
+    }
+.apartamentosearchitittle{
+    /* position: absolute; */
+    height: 27px;
+    left: 66px;
+    top: 23px;
+    
+    font-family: Archivo;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 26px;
+    
+    
+    
+    color: #365078;
+}
+    /* Botón regresar buscador */
+.back-1{
+    /* position: absolute; */
+    width: 100px;
+    height: 35px;
+    left: 80px;
+    top: 63px;  
+    bottom: 7.64%;
+    cursor: pointer;
+    color: rgb(255, 255, 255);
+    background-color: rgb(56, 87, 146);
+    border-radius: 20px;
+    opacity: 0.5;
+    border: 0.2ch;
+}
+/* Buscador */
+
+.search{
+    /* position: absolute; */
+    width: 256px;
+    height: 36px;
+    left: 320px;
+    top: 63px;
+    text-align: center;
+    border-radius: 20px;
+}
+
+/* agregar cliente */
+
+.addclient{
+   
+
+
+    /* position: absolute; */
+    top:65px;
+    right: 15.06%;
+    height: 36px;
+    left:770px;
+
+    cursor: pointer;
+}
+
+/* Agregar cliente text */
+
+.addclienttext{
+    /* position: absolute; */
+    width: 186px;
+    height: 27px;
+    left:810px;
+    top:75px;
+    
+    font-family: Archivo;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 13px;
+
+    letter-spacing: -0.04em;
+    cursor: pointer;
+    color: #365078;
+}
+
+
+/* Botón buscar */
+
+.searchf {
+    /* position: absolute; */
+    width: 87px;
+    height: 37px;
+    left: 800px;
+    top: 120px;
+
+    bottom: 7.64%;
+    cursor: pointer;
+    color: rgb(255, 255, 255);
+    background-color: rgb(56, 87, 146);
+    border-radius: 20px;
+
+    border: 0.2ch;
+}
+.engancheb {
+    /* position: absolute; */
+    height: 37px;
+    left: 800px;
+    top: 120px;
+
+    bottom: 7.64%;
+    cursor: pointer;
+    color: rgb(255, 255, 255);
+    background-color: rgb(56, 87, 146);
+    border-radius: 20px;
+
+    border: 0.2ch;
+}
+
+
+/* Hasta: */
+
+.texthasta{
+    /* position: absolute; */
+    width: 186px;
+    height: 27px;
+    left: 420px;
+    top: 129px;
+
+    font-family: Archivo;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 17px;
+
+    color: #000000;
+}
+
+
+/* Desde: */
+
+.textdesde{
+    /* position: absolute; */
+    width: 186px;
+    height: 27px;
+    left: 80px;
+    top: 129px;
+
+    font-family: Archivo;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 17px;
+
+    color: #000000;
+
+}
+
+/* Group 22 */
+.calendarsearchsince{
+
+    /* position: absolute; */
+    width: 256px;
+    height: 36px;
+    left: 480px;
+    top: 120px;
+
+}
+
+/* Group 23 */
+
+.calendarsearchuntil{
+
+    /* position: absolute; */
+    width: 256px;
+    height: 36px;
+    left: 144px;
+    top: 120px;
+}
+
+/* Resultados: */
+
+.results{
+    /* position: absolute; */
+    width: 186px;
+    height: 27px;
+    left: 50px;
+    top: 192px;
+
+    font-family: Archivo;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 17px;
+
+    color: #000000;
+}
+
+/* Linea divisora */
+
+.line {
+    /* position: absolute; */
+    width: 5px;
+    height: 100%;
+    left: 320px;
+    top: 187px;
+    margin-left: 30%;
+    background: #C4C4C4;
+
+}
+
+/* User name tittle */
+
+.usernametittle{
+    /* position: absolute; */
+    width: 250px;
+    height: 17px;
+    left: 449px;
+    top: 179px;
+
+    font-family: Archivo;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 17px;
+    border: 0ch;
+    color: #000000;
+}
+
+/* user icon */
+
+.usericon{
+    /* position: absolute; */
+    width: 14.81px;
+    height: 18px;
+    left: 352px;
+    top: 0px;
+}
+
+/* Tabla de resultados */
+
+.searchresults{
+    /* position: absolute; */
+    width: 260px;
+    height: 285px;
+    left: 52px;
+    top: 218px;
+}
+
+/* Tabla de busquedas anteriores */
+
+.latestsresults {
+    /* position: absolute; */
+    width: 260px;
+    height: 285px;
+    left: 0px;
+    top: 440px;
+    }
+
+/* Tittle ultimas busquedas */
+
+.titlelatestssearchs {
+    /* position: absolute; */
+    width: 186px;
+
+
+    top: 517px;
+
+    font-family: Archivo;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 17px;
+
+    color: #000000;
+}
+
+/* Información del Cliente */
+
+    .titleinf{
+    /* position: absolute; */
+
+    font-family: Archivo;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 17px;
+
+    color: #000000;
+}
+
+/*////////* Sección de información  *//**//*///*/
+
+/* user name*/
+.usernamesi{
+    /* position: absolute; */
+    width: 142px;
+    height: 17px;
+    left: 353px;
+    top: 50px;
+
+    font-family: Archivo;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 17px;
+
+    color: #000000;
+}
+
+/* user icon */
+
+.saleicon{
+    /* position: absolute; */
+    width: 14.81px;
+    height: 18px;
+    left: 352px;
+    top: 200px;
+    }
+    
+    /* Correo electronico: */
+.emailtittle{
+
+
+    /* position: absolute; */
+    width: 140px;
+    height: 17px;
+    left: 353px;
+    top: 50px;
+
+    font-family: Archivo;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 17px;
+
+    color: #000000;
+
+}
+/* Teléfono: */
+.phonetittle{
+
+
+
+    /* position: absolute; */
+    width: 65px;
+    height: 17px;
+    left: 353px;
+    top: 70px;
+
+    font-family: Archivo;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 17px;
+
+    color: #000000;
+
+
+
+}
+
+/* DPI: */
+.dpitittle{
+
+    /* position: absolute; */
+    width: 32px;
+    height: 17px;
+    left: 353px;
+    top: 90px;
+
+    font-family: Archivo;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 17px;
+
+    color: #000000;
+
+
+}
+/* Vencimiento DPI: */
+.vencimientodpitittle{
+
+    /* position: absolute; */
+    width: 124px;
+    height: 17px;
+    left: 353px;
+    top: 110px;
+
+    font-family: Archivo;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 17px;
+
+    color: #000000;
+
+
+}
+/* Dirección: */
+.adresstittle{
+
+    /* position: absolute; */
+    width: 72px;
+    height: 17px;
+    left: 353px;
+    top: 130px;
+
+    font-family: Archivo;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 17px;
+
+    color: #000000;
+
+}
+
+/****************** Información de venta*****************************/
+
+
+
+/* Información de venta: */
+
+    .infsaletittle{
+    /* position: absolute; */
+    width: 167px;
+    height: 17px;
+    left: 379px;
+    top: 200px;
+
+    font-family: Archivo;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 17px;
+
+    color: #000000;
+
+}
+
+/* Descuento porcentual %: */
+.descperceptittle{
+    /* position: absolute; */
+    width: 200px;
+    height: 17px;
+    left: 352px;
+    top: 220px;
+
+    font-family: Archivo;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 17px;
+
+    color: #000000;
+
+}
+
+/* Enganche: */
+
+.engagetittle{
+    /* position: absolute; */
+    width: 77px;
+    height: 17px;
+    left: 352px;
+    top:240px;
+
+    font-family: Archivo;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 17px;
+
+    color: #000000;
+
+}
+
+/* Pagos de enganche */
+
+.engagepaymentstittle{
+    /* position: absolute; */
+    width: 143px;
+    height: 17px;
+    left: 353px;
+    top: 260px;
+
+    font-family: Archivo;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 17px;
+
+    color: #000000;
+}
+
+/* Nombre del Cliente: */
+
+.usernametittleinfo{
+
+    /* position: absolute; */
+    font-family: Archivo;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 17px;
+
+    color: #000000;
+}
+
+/* Pagos de enganche */
+
+.engagepaymentstittle{
+    /* position: absolute; */
+    width: 200px;
+    height: 17px;
+    left: 353px;
+    top: 260px;
+
+    font-family: Archivo;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 17px;
+
+    color: #000000;
+}
+
+
+
+/**** Sección de información/*/
+
+.secinfo{
+    top: 40px;
+}
+
+
+/* Plazo de financimiento: */
+
+.plazofin{
+    /* position: absolute; */
+    width: 166px;
+    height: 17px;
+    left: 353px;
+    top: 280px;
+
+    font-family: Archivo;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 17px;
+
+    color: #000000;
+
+}
+ /* Parqueo extra: */
+.parqueoextra{
+
+   
+
+
+/* position: absolute; */
+width: 105px;
+height: 17px;
+left: 353px;
+top: 300px;
+
+font-family: Archivo;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 17px;
+
+color: #000000;
+
+
+}
+/* Bodegas extra: */
+.bodegaextra{
+
+/* position: absolute; */
+width: 108px;
+height: 17px;
+left: 352px;
+top: 320px;
+
+font-family: Archivo;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 17px;
+
+color: #000000;
+
+
+}
+/* Monto Reserva: */
+.montoreservatittle{
+
+/* position: absolute; */
+width: 113px;
+height: 17px;
+left: 353px;
+top: 340px;
+
+font-family: Archivo;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 17px;
+color: #000000;
+
+}
+/* Información de venta: */
+
+.infoventtittle{
+/* position: absolute; */
+/* width: 167px; */
+height: 17px;
+left: 379px;
+top: 400px;
+
+font-family: Archivo;
+font-style: normal;
+font-weight: bold;
+font-size: 16px;
+line-height: 17px;
+
+color: #000000;
+}
+  /* Nivel: */
+.niveltittle{
+
+    /* position: absolute; */
+    width: 40px;
+    height: 17px;
+    left: 354px;
+    top: 440px;
+
+    font-family: Archivo;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 17px;
+
+    color: #000000;
+
+}
+/* Apartamento: */
+.aptotittle{
+
+    
+
+
+/* position: absolute; */
+width: 97px;
+height: 17px;
+left: 354px;
+top: 460px;
+
+font-family: Archivo;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 17px;
+
+color: #000000;
+}
+ /* app icon */
+.appicon{
+
+/* position: absolute; */
+width: 14.81px;
+height: 18px;
+left: 352px;
+top: 400px;
+
+}
+
+/* Tamaño en mt2: */
+.sizetittle{
+    /* position: absolute; */
+    width: 200px;
+    height: 17px;
+    left: 354px;
+    top: 480px;
+
+    font-family: Archivo;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 17px;
+
+    color: #000000;
+
+}
+
+/* Habitaciones: */
+.habtittle{
+
+    /* position: absolute; */
+    width: 97px;
+    height: 17px;
+    left: 354px;
+    top: 500px;
+
+    font-family: Archivo;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 17px;
+
+    color: #000000;
+    }
+
+/* Área de bodega en mt2: */
+
+.areabodetittle{
+    /* position: absolute; */
+    width: 169px;
+    height: 17px;
+    left: 353px;
+    top: 520px;
+
+    font-family: Archivo;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 17px;
+
+    color: #000000;
+    }
+ /* Parqueo de moto: */
+.parqmototittle{
+   
+
+
+    /* position: absolute; */
+    width: 128px;
+    height: 17px;
+    left: 354px;
+    top: 540px;
+
+    font-family: Archivo;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 17px;
+
+    color: #000000;
+}
+
+/* Parqueo de carro: */
+.parqcarrotittle{
+
+    /* position: absolute; */
+    width: 129px;
+    height: 17px;
+    left: 354px;
+    top: 560px;
+
+    font-family: Archivo;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 17px;
+
+    color: #000000;
+}
+
+/* Área de Jardin en mt2: */
+
+.areajardintittle{
+    /* position: absolute; */
+    width: 200px;
+    height: 17px;
+    left: 354px;
+    top: 580px;
+
+    font-family: Archivo;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 17px;
+
+    color: #000000;
+
+}
+
+/* Precio total (GtTQ): */
+
+.preciototaltittle{
+    /* position: absolute; */
+    width: 139px;
+    height: 17px;
+    left: 353px;
+    top: 600px;
+
+    font-family: Archivo;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 17px;
+
+    color: #000000;
+
+}
+
+/*/*//*///*//* Información del Vendedor */
+
+/* icono de sección info vendedor */
+.iconselltittle{
+    /* position: absolute; */
+    width: 14.81px;
+    height: 18px;
+    left: 352px;
+    top: 650px;
+
+}
+
+.infovendtittle{
+    /* position: absolute; */
+    width: 198px;
+    height: 17px;
+    left: 374px;
+    top: 650px;
+
+    font-family: Archivo;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 17px;
+
+    color: #000000;
+
+}
+
+/* Nombre del Vendedor */
+
+.sellernametittle{
+    /* position: absolute; */
+    width: 220px;
+    height: 17px;
+    left: 353px;
+    top: 680px;
+
+    font-family: Archivo;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 17px;
+
+    color: #000000;
+}
+/* Correo electronico: */
+
+.sellermailtittle{
+    /* position: absolute; */
+    width: 140px;
+    height: 17px;
+    left: 353px;
+    top: 700px;
+
+    font-family: Archivo;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 17px;
+
+    color: #000000;
+
+}
+
+/* Teléfono: */
+
+.sellerphonetittle{
+    /* position: absolute; */
+    width: 65px;
+    height: 17px;
+    left: 353px;
+    top: 720px;
+
+    font-family: Archivo;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 17px;
+
+    color: #000000;
+}
+.form-control
+{
+    /* height: 24px; */
+    padding: 1px 5px;
+} 
+label{
+    font-size:15px;
+}
+/* input
+{
+    height: 24px;
+    padding: 1px 12px; 
+} */
+select {
+    border: none;
+    font-size: 10px;
+    height: 30px;
+    padding: 5px;
+}
+/* Botón información cliente */
+
+.inf{
+    /* position:static; */
+    width: 197px;
+    height: 35px;
+    left: 380px;
+    top: 358px;
+    bottom: 1%;
+    bottom: 7.64%;
+        cursor: pointer;
+        color: rgb(255, 255, 255);
+        background-color: #365078;
+        border-radius: 20px;
+    
+        border: 0.2ch;
+    }
+.modal-dialog,
+.modal-content {
+    /* 80% of window height */
+    height: 90%;
+}
+
+.modal-body {
+    /* 100% = dialog height, 120px = header + footer */
+    max-height: calc(100% - 120px);
+    overflow-y: scroll;
+}
+#divTabla {
+    /* 100% = dialog height, 120px = header + footer */
+    max-height: 50%;
+    overflow-y: scroll;
+}
+#rows{
+       /* 100% = dialog height, 120px = header + footer */
+       /* max-height: calc(100% - 120px); */
+       height: 100%;
+}
+input[type="color"] {
+	-webkit-appearance: none;
+	border: none;
+	width: 96px;
+	height: 32px;
+}
+input[type="color"]::-webkit-color-swatch-wrapper {
+	padding: 0;
+}
+input[type="color"]::-webkit-color-swatch {
+	border: none;
+}
+table#resultadoCuotasComision th {
+    border: thin solid black;
+    text-align: center;
+    font-weight: bold;
+}
+table#resultadoCuotasComisionDir th {
+    border: thin solid black;
+    text-align: center;
+    font-weight: bold;
+}

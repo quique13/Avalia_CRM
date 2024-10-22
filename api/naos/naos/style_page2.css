@@ -1,0 +1,1213 @@
+/*Color palette*/
+.pink {
+  color: #fddfdb !important;
+}
+
+.pink-bg {
+  background-color: #fddfdb;
+}
+
+.blue {
+  color: #152746 !important;
+}
+
+.blue-bg {
+  background-color: #152746;
+}
+
+.orange {
+  color: #ff9267 !important;
+}
+
+.orange-bg {
+  background-color: #ff9267;
+}
+
+.grey {
+  color: #f1f1f2 !important;
+}
+
+.grey-bg {
+  background-color: #f1f1f2;
+}
+
+.white {
+  color: #ffff !important;
+}
+
+.white-bg {
+  background-color: #ffff;
+}
+
+@page {
+  margin: 0mm;
+  margin-header: 0mm;
+  margin-footer: 0mm;
+}
+body {
+  background-color: white;
+}
+
+.logo-header {
+  position: fixed;
+  width: 13em;
+  left: 2.3em;
+  top: 5%;
+}
+
+.apartment-container {
+  position: fixed;
+  background-color: #BFDBE5;
+  right: 0;
+  top: 5%;
+  width: 25%;
+  height: 5em;
+}
+
+.apartment-text {
+  font-family: effra;
+  font-weight: bold;
+  position: fixed;
+  top: 5%;
+  color: #DE5B68;
+  font-size: 1.4em;
+  left: 77%;
+}
+
+.number-text {
+  font-family: effra;
+  font-weight: bold;
+  position: fixed;
+  top: 7%;
+  color: #152746;
+  font-size: 1.8em;
+  left: 77%;
+  width: 5em;
+}
+
+.date-text {
+  font-family: effra;
+  font-weight: bold;
+  position: fixed;
+  font-size: 1.1em;
+  color: #DE5B68;
+  top: 12.1%;
+  right: 2.3em;
+  z-index: 999;
+}
+
+.new-home-text {
+  font-family: effra;
+  font-weight: bold;
+  position: fixed;
+  font-size: 1em;
+  color: #DE5B68;
+  top: 23%;
+  left: 2.3em;
+}
+
+.greeting-text {
+  font-family: effra;
+  font-weight: lighter;
+  position: fixed;
+  top: 26.5%;
+  left: 2.3em;
+  font-size: 0.96em;
+  line-height: 1.2em;
+  color: #152746;
+  padding-right: 2.3em;
+}
+
+.apartment-info-text {
+  font-family: effra;
+  font-weight: bold;
+  position: fixed;
+  font-size: 1em;
+  color: #DE5B68;
+  top: 35%;
+  left: 2.3em;
+}
+
+.first-orange-line {
+  position: fixed;
+  height: 1px;
+  width: 96%;
+  border-bottom: 1px solid #DE5B68;
+  left: 2.3em;
+  margin-right: 2.3em;
+  top: 39%;
+}
+
+.prices-info-text {
+  font-family: effra;
+  font-weight: bold;
+  position: fixed;
+  font-size: 1em;
+  color: #DE5B68;
+  top: 54%;
+  left: 2.3em;
+}
+
+.second-orange-line {
+  position: fixed;
+  height: 1px;
+  width: 96%;
+  border-bottom: 1px solid #DE5B68;
+  left: 2.3em;
+  margin-right: 2.3em;
+  top: 58%;
+}
+
+.quoted-for-text {
+  position: fixed;
+  z-index: 999;
+  font-weight: bold;
+  font-family: effra;
+  color: #152746;
+  font-size: 1em;
+  top: 9em;
+  left: 2.3em;
+}
+
+.quoted-for-value {
+  position: fixed;
+  z-index: 99;
+  font-weight: lighter;
+  font-family: effra;
+  color: #152746;
+  font-size: 1em;
+  width: 15.4em;
+  top: 11.5em;
+  left: 2.3em;
+}
+
+.field-quoted-for {
+  position: fixed;
+  width: 15.4em;
+  height: 3.5em;
+  border-bottom: 1px solid #152746;
+  background-color: white;
+  top: 10.5em;
+  left: 2.3em;
+}
+
+.email-text {
+  position: fixed;
+  z-index: 999;
+  font-weight: bold;
+  font-family: effra;
+  color: #152746;
+  font-size: 1em;
+  top: 9em;
+  left: 20em;
+}
+
+.email-value {
+  position: fixed;
+  z-index: 99;
+  font-weight: lighter;
+  font-family: effra;
+  color: #152746;
+  font-size: 1em;
+  width: 15.4em;
+  top: 11.5em;
+  left: 20em;
+}
+
+.field-email {
+  position: fixed;
+  width: 15.4em;
+  height: 3.5em;
+  border-bottom: 1px solid #152746;
+  background-color: white;
+  top: 10.5em;
+  left: 20em;
+}
+
+.phone-text {
+  position: fixed;
+  z-index: 999;
+  font-weight: bold;
+  font-family: effra;
+  color: #152746;
+  font-size: 1em;
+  top: 9em;
+  left: 37.7em;
+}
+
+.phone-value {
+  position: fixed;
+  z-index: 99;
+  font-weight: lighter;
+  font-family: effra;
+  color: #152746;
+  font-size: 1em;
+  width: 15.4em;
+  top: 11.5em;
+  left: 37.7em;
+}
+
+.field-phone {
+  position: fixed;
+  width: 15.4em;
+  height: 3.5em;
+  border-bottom: 1px solid #152746;
+  background-color: white;
+  top: 10.5em;
+  left: 37.7em;
+}
+
+.module-text {
+  position: fixed;
+  z-index: 999;
+  font-weight: bold;
+  font-family: effra;
+  color: #152746;
+  font-size: 1em;
+  top: 28.8em;
+  left: 2.3em;
+}
+
+.module-value {
+  position: fixed;
+  z-index: 99;
+  font-weight: lighter;
+  font-family: effra;
+  color: #152746;
+  font-size: 1em;
+  width: 15.4em;
+  top: 31.3em;
+  left: 2.3em;
+}
+
+.module-field {
+  position: fixed;
+  width: 11.55em;
+  height: 3.5em;
+  border-bottom: 1px solid #152746;
+  background-color: white;
+  top: 30.3em;
+  left: 2.3em;
+}
+
+.level-text {
+  position: fixed;
+  z-index: 999;
+  font-weight: bold;
+  font-family: effra;
+  color: #152746;
+  font-size: 1em;
+  top: 28.8em;
+  left: 15.05em;
+}
+
+.level-value {
+  position: fixed;
+  z-index: 99;
+  font-weight: lighter;
+  font-family: effra;
+  color: #152746;
+  font-size: 1em;
+  width: 15.4em;
+  top: 31.3em;
+  left: 15.05em;
+}
+
+.field-level {
+  position: fixed;
+  width: 11.55em;
+  height: 3.5em;
+  border-bottom: 1px solid #152746;
+  background-color: white;
+  top: 30.3em;
+  left: 15.05em;
+}
+
+.apartment-text-v {
+  position: fixed;
+  z-index: 999;
+  font-weight: bold;
+  font-family: effra;
+  color: #152746;
+  font-size: 1em;
+  top: 28.8em;
+  left: 28.35em;
+}
+
+.apartment-value {
+  position: fixed;
+  z-index: 99;
+  font-weight: lighter;
+  font-family: effra;
+  color: #152746;
+  font-size: 1em;
+  width: 15.4em;
+  top: 31.3em;
+  left: 28.35em;
+}
+
+.apartment-field {
+  position: fixed;
+  width: 11.55em;
+  height: 3.5em;
+  border-bottom: 1px solid #152746;
+  background-color: white;
+  top: 30.3em;
+  left: 28.35em;
+}
+
+.size-text {
+  position: fixed;
+  z-index: 999;
+  font-weight: bold;
+  font-family: effra;
+  color: #152746;
+  font-size: 1em;
+  top: 28.8em;
+  left: 41.65em;
+}
+
+.size-value {
+  position: fixed;
+  z-index: 99;
+  font-weight: lighter;
+  font-family: effra;
+  color: #152746;
+  font-size: 1em;
+  width: 15.4em;
+  top: 31.3em;
+  left: 41.65em;
+}
+
+.size-field {
+  position: fixed;
+  width: 11.55em;
+  height: 3.5em;
+  border-bottom: 1px solid #152746;
+  background-color: white;
+  top: 30.3em;
+  left: 41.65em;
+}
+
+.rooms-text {
+  position: fixed;
+  z-index: 999;
+  font-weight: bold;
+  font-family: effra;
+  color: #152746;
+  font-size: 1em;
+  top: 34.1em;
+  left: 2.3em;
+}
+
+.rooms-value {
+  position: fixed;
+  z-index: 99;
+  font-weight: lighter;
+  font-family: effra;
+  color: #152746;
+  font-size: 1em;
+  width: 15.4em;
+  top: 36.6em;
+  left: 2.3em;
+}
+
+.rooms-field {
+  position: fixed;
+  width: 11.55em;
+  height: 3.5em;
+  border-bottom: 1px solid #152746;
+  background-color: white;
+  top: 35.6em;
+  left: 2.3em;
+}
+
+.includes-kitchen-text {
+  position: fixed;
+  z-index: 999;
+  font-weight: bold;
+  font-family: effra;
+  color: #152746;
+  font-size: 1em;
+  top: 34.1em;
+  left: 15.05em;
+}
+
+.includes-kitchen-value {
+  position: fixed;
+  z-index: 99;
+  font-weight: lighter;
+  font-family: effra;
+  color: #152746;
+  font-size: 1em;
+  width: 15.4em;
+  top: 36.6em;
+  left: 15.05em;
+}
+
+.includes-kitchen-field {
+  position: fixed;
+  width: 11.55em;
+  height: 3.5em;
+  border-bottom: 1px solid #152746;
+  background-color: white;
+  top: 35.6em;
+  left: 15.05em;
+}
+
+.car-parking-text {
+  position: fixed;
+  z-index: 999;
+  font-weight: bold;
+  font-family: effra;
+  color: #152746;
+  font-size: 1em;
+  top: 34.1em;
+  left: 2.3em;
+}
+
+.car-parking-value {
+  position: fixed;
+  z-index: 99;
+  font-weight: lighter;
+  font-family: effra;
+  color: #152746;
+  font-size: 1em;
+  width: 15.4em;
+  top: 36.6em;
+  left: 2.3em;
+}
+
+.car-parking-field {
+  position: fixed;
+  width: 11.55em;
+  height: 3.5em;
+  border-bottom: 1px solid #152746;
+  background-color: white;
+  top: 35.6em;
+  left: 2.3em;
+}
+
+.extra-parking-text {
+  position: fixed;
+  z-index: 999;
+  font-weight: bold;
+  font-family: effra;
+  color: #152746;
+  font-size: 1em;
+  top: 34.1em;
+  left: 28.35em;
+}
+
+.extra-parking-value {
+  position: fixed;
+  z-index: 99;
+  font-weight: lighter;
+  font-family: effra;
+  color: #152746;
+  font-size: 1em;
+  width: 15.4em;
+  top: 36.6em;
+  left: 28.35em;
+}
+
+.extra-parking-field {
+  position: fixed;
+  width: 11.55em;
+  height: 3.5em;
+  border-bottom: 1px solid #152746;
+  background-color: white;
+  top: 35.6em;
+  left: 28.35em;
+}
+
+.extra-parking-qt-text {
+  position: fixed;
+  z-index: 999;
+  font-weight: bold;
+  font-family: effra;
+  color: #152746;
+  font-size: 1em;
+  top: 34.1em;
+  left: 41.65em;
+}
+
+.extra-parking-qt-value {
+  position: fixed;
+  z-index: 99;
+  font-weight: lighter;
+  font-family: effra;
+  color: #152746;
+  font-size: 1em;
+  width: 15.4em;
+  top: 36.6em;
+  left: 41.65em;
+}
+
+.extra-parking-qt-field {
+  position: fixed;
+  width: 11.55em;
+  height: 3.5em;
+  border-bottom: 1px solid #152746;
+  background-color: white;
+  top: 35.6em;
+  left: 41.65em;
+}
+
+.garden-area-text {
+  position: fixed;
+  z-index: 999;
+  font-weight: bold;
+  font-family: effra;
+  color: #152746;
+  font-size: 1em;
+  top: 34.1em;
+  left: 15.05em;
+}
+
+.garden-area-value {
+  position: fixed;
+  z-index: 99;
+  font-weight: lighter;
+  font-family: effra;
+  color: #152746;
+  font-size: 1em;
+  width: 15.4em;
+  top: 36.6em;
+  left: 15.05em;
+}
+
+.garden-area-field {
+  position: fixed;
+  width: 11.55em;
+  height: 3.5em;
+  border-bottom: 1px solid #152746;
+  background-color: white;
+  top: 35.6em;
+  left: 15.05em;
+}
+
+.warehouse-area-text {
+  position: fixed;
+  z-index: 999;
+  font-weight: bold;
+  font-family: effra;
+  color: #152746;
+  font-size: 1em;
+  top: 34.1em;
+  left: 28.35em;
+}
+
+.warehouse-area-value {
+  position: fixed;
+  z-index: 99;
+  font-weight: lighter;
+  font-family: effra;
+  color: #152746;
+  font-size: 1em;
+  width: 15.4em;
+  top: 36.6em;
+  left: 28.35em;
+}
+
+.warehouse-area-field {
+  position: fixed;
+  width: 11.55em;
+  height: 3.5em;
+  border-bottom: 1px solid #152746;
+  background-color: white;
+  top: 35.6em;
+  left: 28.35em;
+}
+
+.warehouse-price-text {
+  position: fixed;
+  z-index: 999;
+  font-weight: bold;
+  font-family: effra;
+  color: #152746;
+  font-size: 1em;
+  top: 34.1em;
+  left: 41.65em;
+}
+
+.warehouse-price-value {
+  position: fixed;
+  z-index: 99;
+  font-weight: lighter;
+  font-family: effra;
+  color: #152746;
+  font-size: 1em;
+  width: 15.4em;
+  top: 36.6em;
+  left: 41.65em;
+}
+
+.warehouse-price-field {
+  position: fixed;
+  width: 11.55em;
+  height: 3.5em;
+  border-bottom: 1px solid #152746;
+  background-color: white;
+  top: 35.6em;
+  left: 41.65em;
+}
+
+.total-extra-parking-text {
+  position: fixed;
+  z-index: 999;
+  font-weight: bold;
+  font-family: effra;
+  color: #152746;
+  font-size: 1em;
+  top: 41.52em;
+  left: 2.3em;
+}
+
+.total-extra-parking-value {
+  position: fixed;
+  z-index: 99;
+  font-weight: lighter;
+  font-family: effra;
+  color: #152746;
+  font-size: 1em;
+  width: 15.4em;
+  top: 44.02em;
+  left: 2.3em;
+}
+
+.total-extra-parking-field {
+  position: fixed;
+  width: 11.55em;
+  height: 3.5em;
+  border-bottom: 1px solid #152746;
+  background-color: white;
+  top: 43.02em;
+  left: 2.3em;
+}
+
+.total-price-text {
+  position: fixed;
+  z-index: 999;
+  font-weight: bold;
+  font-family: effra;
+  color: #152746;
+  font-size: 1em;
+  top: 41.52em;
+  left: 15.05em;
+}
+
+.total-price-value {
+  position: fixed;
+  z-index: 99;
+  font-weight: lighter;
+  font-family: effra;
+  color: #152746;
+  font-size: 1em;
+  width: 15.4em;
+  top: 44.02em;
+  left: 15.05em;
+}
+
+.total-price-field {
+  position: fixed;
+  width: 11.55em;
+  height: 3.5em;
+  border-bottom: 1px solid #152746;
+  background-color: white;
+  top: 43.02em;
+  left: 15.05em;
+}
+
+.discount-text {
+  position: fixed;
+  z-index: 999;
+  font-weight: bold;
+  font-family: effra;
+  color: #152746;
+  font-size: 1em;
+  top: 41.52em;
+  left: 28.35em;
+}
+
+.discount-value {
+  position: fixed;
+  z-index: 99;
+  font-weight: lighter;
+  font-family: effra;
+  color: #152746;
+  font-size: 1em;
+  width: 15.4em;
+  top: 44.02em;
+  left: 28.35em;
+}
+
+.discount-field {
+  position: fixed;
+  width: 11.55em;
+  height: 3.5em;
+  border-bottom: 1px solid #152746;
+  background-color: white;
+  top: 43.02em;
+  left: 28.35em;
+}
+
+.net-price-text {
+  position: fixed;
+  z-index: 999;
+  font-weight: bold;
+  font-family: effra;
+  color: #152746;
+  font-size: 1em;
+  top: 41.52em;
+  left: 41.65em;
+}
+
+.net-price-value {
+  position: fixed;
+  z-index: 99;
+  font-weight: lighter;
+  font-family: effra;
+  color: #152746;
+  font-size: 1em;
+  width: 15.4em;
+  top: 44.02em;
+  left: 41.65em;
+}
+
+.net-price-field {
+  position: fixed;
+  width: 11.55em;
+  height: 3.5em;
+  border-bottom: 1px solid #152746;
+  background-color: white;
+  top: 43.02em;
+  left: 41.65em;
+}
+
+.hooking-text {
+  position: fixed;
+  z-index: 999;
+  font-weight: bold;
+  font-family: effra;
+  color: #152746;
+  font-size: 1em;
+  top: 46.82em;
+  left: 2.3em;
+}
+
+.hooking-value {
+  position: fixed;
+  z-index: 99;
+  font-weight: lighter;
+  font-family: effra;
+  color: #152746;
+  font-size: 1em;
+  width: 15.4em;
+  top: 49.32em;
+  left: 2.3em;
+}
+
+.hooking-field {
+  position: fixed;
+  width: 11.55em;
+  height: 3.5em;
+  border-bottom: 1px solid #152746;
+  background-color: white;
+  top: 48.32em;
+  left: 2.3em;
+}
+
+.hooking-fee-text {
+  position: fixed;
+  z-index: 999;
+  font-weight: bold;
+  font-family: effra;
+  color: #152746;
+  font-size: 1em;
+  top: 46.82em;
+  left: 15.05em;
+}
+
+.hooking-fee-value {
+  position: fixed;
+  z-index: 99;
+  font-weight: lighter;
+  font-family: effra;
+  color: #152746;
+  font-size: 1em;
+  width: 15.4em;
+  top: 49.32em;
+  left: 15.05em;
+}
+
+.hooking-fee-field {
+  position: fixed;
+  width: 11.55em;
+  height: 3.5em;
+  border-bottom: 1px solid #152746;
+  background-color: white;
+  top: 48.32em;
+  left: 15.05em;
+}
+
+.hooking-monthly-fee-text {
+  position: fixed;
+  z-index: 999;
+  font-weight: bold;
+  font-family: effra;
+  color: #152746;
+  font-size: 1em;
+  top: 46.82em;
+  left: 28.35em;
+}
+
+.hooking-monthly-fee-value {
+  position: fixed;
+  z-index: 99;
+  font-weight: lighter;
+  font-family: effra;
+  color: #152746;
+  font-size: 1em;
+  width: 15.4em;
+  top: 49.32em;
+  left: 28.35em;
+}
+
+.hooking-monthly-fee-field {
+  position: fixed;
+  width: 11.55em;
+  height: 3.5em;
+  border-bottom: 1px solid #152746;
+  background-color: white;
+  top: 48.32em;
+  left: 28.35em;
+}
+
+.initial-balance-text {
+  position: fixed;
+  z-index: 999;
+  font-weight: bold;
+  font-family: effra;
+  color: #152746;
+  font-size: 1em;
+  top: 46.82em;
+  left: 41.65em;
+}
+
+.initial-balance-value {
+  position: fixed;
+  z-index: 99;
+  font-weight: lighter;
+  font-family: effra;
+  color: #152746;
+  font-size: 1em;
+  width: 15.4em;
+  top: 49.32em;
+  left: 41.65em;
+}
+
+.initial-balance-field {
+  position: fixed;
+  width: 11.55em;
+  height: 3.5em;
+  border-bottom: 1px solid #152746;
+  background-color: white;
+  top: 48.32em;
+  left: 41.65em;
+}
+
+.fee-information {
+  font-family: effra;
+  font-weight: bold;
+  position: fixed;
+  font-size: 1.1em;
+  color: #DE5B68;
+  top: 72%;
+  left: 2.3em;
+  z-index: 999;
+}
+
+.third-orange-line {
+  position: fixed;
+  height: 1px;
+  width: 96%;
+  border-bottom: 1px solid #DE5B68;
+  left: 2.3em;
+  margin-right: 2.3em;
+  top: 76%;
+}
+
+.period-text {
+  position: fixed;
+  z-index: 999;
+  font-weight: bold;
+  font-family: effra;
+  color: #152746;
+  font-size: 1em;
+  top: 55.3em;
+  left: 2.3em;
+}
+
+.period-value {
+  position: fixed;
+  z-index: 99;
+  font-weight: lighter;
+  font-family: effra;
+  color: #152746;
+  font-size: 1em;
+  width: 15.4em;
+  top: 57.8em;
+  left: 2.3em;
+}
+
+.period-field {
+  position: fixed;
+  width: 11.55em;
+  height: 3.5em;
+  border-bottom: 1px solid #152746;
+  background-color: white;
+  top: 56.8em;
+  left: 2.3em;
+}
+
+.credit-fee-text {
+  position: fixed;
+  z-index: 999;
+  font-weight: bold;
+  font-family: effra;
+  color: #152746;
+  font-size: 1em;
+  top: 55.3em;
+  left: 15.05em;
+}
+
+.credit-fee-value {
+  position: fixed;
+  z-index: 99;
+  font-weight: lighter;
+  font-family: effra;
+  color: #152746;
+  font-size: 1em;
+  width: 15.4em;
+  top: 57.8em;
+  left: 15.05em;
+}
+
+.credit-fee-field {
+  position: fixed;
+  width: 11.55em;
+  height: 3.5em;
+  border-bottom: 1px solid #152746;
+  background-color: white;
+  top: 56.8em;
+  left: 15.05em;
+}
+
+.iusi-fee-text {
+  position: fixed;
+  z-index: 999;
+  font-weight: bold;
+  font-family: effra;
+  color: #152746;
+  font-size: 1em;
+  top: 55.3em;
+  left: 28.35em;
+}
+
+.iusi-fee-value {
+  position: fixed;
+  z-index: 99;
+  font-weight: lighter;
+  font-family: effra;
+  color: #152746;
+  font-size: 1em;
+  width: 15.4em;
+  top: 57.8em;
+  left: 28.35em;
+}
+
+.iusi-fee-field {
+  position: fixed;
+  width: 11.55em;
+  height: 3.5em;
+  border-bottom: 1px solid #152746;
+  background-color: white;
+  top: 56.8em;
+  left: 28.35em;
+}
+
+.insurance-fee-text {
+  position: fixed;
+  z-index: 999;
+  font-weight: bold;
+  font-family: effra;
+  color: #152746;
+  font-size: 1em;
+  top: 55.3em;
+  left: 41.65em;
+}
+
+.insurance-fee-value {
+  position: fixed;
+  z-index: 99;
+  font-weight: lighter;
+  font-family: effra;
+  color: #152746;
+  font-size: 1em;
+  width: 15.4em;
+  top: 57.8em;
+  left: 41.65em;
+}
+
+.insurance-fee-field {
+  position: fixed;
+  width: 11.55em;
+  height: 3.5em;
+  border-bottom: 1px solid #152746;
+  background-color: white;
+  top: 56.8em;
+  left: 41.65em;
+}
+
+.monthly-fee-text {
+  position: fixed;
+  z-index: 999;
+  font-weight: bold;
+  font-family: effra;
+  color: #152746;
+  font-size: 1em;
+  top: 60.6em;
+  left: 2.3em;
+}
+
+.monthly-fee-value {
+  position: fixed;
+  z-index: 99;
+  font-weight: lighter;
+  font-family: effra;
+  color: #152746;
+  font-size: 1em;
+  width: 15.4em;
+  top: 63.1em;
+  left: 2.3em;
+}
+
+.monthly-fee-field {
+  position: fixed;
+  width: 11.55em;
+  height: 3.5em;
+  border-bottom: 1px solid #152746;
+  background-color: white;
+  top: 62.1em;
+  left: 2.3em;
+}
+
+.required-income-text {
+  position: fixed;
+  z-index: 999;
+  font-weight: bold;
+  font-family: effra;
+  color: #152746;
+  font-size: 1em;
+  top: 60.6em;
+  left: 15.05em;
+}
+
+.required-income-value {
+  position: fixed;
+  z-index: 99;
+  font-weight: lighter;
+  font-family: effra;
+  color: #152746;
+  font-size: 1em;
+  width: 15.4em;
+  top: 63.1em;
+  left: 15.05em;
+}
+
+.required-income-field {
+  position: fixed;
+  width: 11.55em;
+  height: 3.5em;
+  border-bottom: 1px solid #152746;
+  background-color: white;
+  top: 62.1em;
+  left: 15.05em;
+}
+
+.maintenance-fee-text {
+  position: fixed;
+  z-index: 999;
+  font-weight: bold;
+  font-family: effra;
+  color: #152746;
+  font-size: 1em;
+  top: 60.6em;
+  left: 41.65em;
+}
+
+.maintenance-fee-value {
+  position: fixed;
+  z-index: 99;
+  font-weight: lighter;
+  font-family: effra;
+  color: #152746;
+  font-size: 1em;
+  width: 15.4em;
+  top: 63.1em;
+  left: 41.65em;
+}
+
+.maintenance-fee-field {
+  position: fixed;
+  width: 11.55em;
+  height: 3.5em;
+  border-bottom: 1px solid #152746;
+  background-color: white;
+  top: 62.1em;
+  left: 41.65em;
+}
+
+#includes-list {
+  padding-top: 63.5em;
+  width: 95%;
+  height: 100%;
+  z-index: 9999;
+  left: 2.3em;
+  list-style: none;
+}
+#includes-list li {
+  font-family: effra;
+  font-weight: lighter;
+  font-size: 0.95em;
+  color: #152746;
+  margin-bottom: 1em;
+}
+
+.footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  background-color: #152746;
+  width: 100%;
+  height: 3em;
+}
+
+.footer-logo {
+  position: fixed;
+  width: 6em;
+  left: 2.3em;
+  bottom: 0.5em;
+  z-index: 9999;
+}
+
+.contact-mail {
+  position: fixed;
+  right: 2.3em;
+  bottom: 0em;
+  z-index: 9999;
+  color: #DE5B68;
+}
+
+/*# sourceMappingURL=style_page2.css.map */

@@ -1,0 +1,3664 @@
+/* Cotización Avalia */
+.content-wrapper{
+	padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.content {
+    padding: 10px 25px;
+  }
+html,body {
+    background-color: rgb(255, 255, 255);
+    font-family: sans-serif;
+    height: 100%;
+
+}
+
+
+.ed {
+
+    /* position: absolute; */
+    width: 412px;
+    height: 85px;
+    left: 166px;
+    top: 168px;
+    
+    font-family: Baloo Paaji;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 48px;
+    line-height: 85px;
+    /* identical to box height */
+    
+    letter-spacing: 0.05em;
+    
+    color: #ffffff;
+}
+/* Icono de agregar cliente */
+.adduser{
+        /* position: absolute; */
+    width: 18px;
+    height: 18px;
+    left: 24px;
+
+
+   
+    top: 4.18%;
+    
+}
+
+/* Agregar Cliente */
+
+.tittle {
+    /* position: absolute; */
+    left: 75px;
+    right: 62.18%;
+    top: 4.18%;
+    bottom: 86.81%;
+
+    font-family: 'Archivo', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 26px;
+
+    color: #365078;
+
+    opacity: 0.7;
+}
+/* *Cliente: */
+
+.clienttitle{
+    /* position: absolute; */
+    width: 70px;
+    height: 27px;
+    left: 46px;
+    top: 78px;
+
+    font-family: Archivo;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 17px;
+
+    color: #365078;
+}
+
+
+    /* Primer Nombre */
+
+.firstnamefield{
+
+    /* position: absolute; */
+    width: 120px;
+    height: 29px;
+    left: 47px;
+    top: 97px;
+
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    box-sizing: border-box;
+    border-radius: 15px;
+}
+
+    /* Segundo nombre */
+.secondnamefield{
+
+    /* position: absolute; */
+    width: 129px;
+    height: 29px;
+    left: 172px;
+    top: 100px;
+
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    box-sizing: border-box;
+    border-radius: 15px;
+}
+
+/* Primer apellido */
+
+.firstlastname{
+    /* position: absolute; */
+    width: 122px;
+    height: 28px;
+    left: 45px;
+    top: 134px;
+
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    box-sizing: border-box;
+    border-radius: 15px;
+}
+
+
+/* Segundo apellido */
+
+.secondlastname{
+    /* position: absolute; */
+    width: 129px;
+    height: 29px;
+    left: 172px;
+    top: 136px;
+
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    box-sizing: border-box;
+    border-radius: 15px;
+}
+
+/* Apellido de casado/a */
+
+.marriedname{
+    /* position: absolute; */
+    width: 120px;
+    height: 29px;
+    left: 47px;
+    top: 167px;
+
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    box-sizing: border-box;
+    border-radius: 15px;
+}
+/* Correo electronico */
+
+.mail{
+    /* position: absolute; */
+    width: 256px;
+    height: 36px;
+    left: 45px;
+    top: 224px;
+
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    box-sizing: border-box;
+    border-radius: 15px;
+}
+
+
+    /* *Correo de cliente: */
+
+.mail1 {
+    /* position: absolute; */
+    width: 186px;
+    height: 27px;
+    left: 45px;
+    top: 205px;
+
+    font-family: Archivo;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 17px;
+
+    color: #365078;
+}
+
+/* *Teléfono: */
+
+.phonenewusertext{
+    /* position: absolute; */
+    width: 186px;
+    height: 27px;
+    left: 47px;
+    top: 273px;
+
+    font-family: Archivo;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 17px;
+
+    color: #365078;
+
+}
+
+/* *Dirección: */
+.adressnewusertext{
+
+    /* position: absolute; */
+    width: 186px;
+    height: 27px;
+    left: 48px;
+    top: 338px;
+
+    font-family: Archivo;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 17px;
+
+    color: #365078;
+}
+
+/* Telefono */
+
+.phonenewuser{
+    /* position: absolute; */
+    width: 256px;
+    height: 36px;
+    left: 48px;
+    top: 291px;
+
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    box-sizing: border-box;
+    border-radius: 15px;
+}
+
+/* Dirección */
+
+.adressnewuser{
+    /* position: absolute; */
+    width: 256px;
+    height: 36px;
+    left: 49px;
+    top: 357px;
+
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    box-sizing: border-box;
+    border-radius: 15px;
+}
+
+/* Número de DPI */
+.nodpitext{
+    position: absolute; 
+     width: 186px; 
+     height: 27px; 
+     left: 349px;
+    top: 78px; 
+    margin-bottom: 0px;
+
+    font-family: Archivo;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 17px;
+
+    color: #365078;
+
+}
+
+/* Fecha de vencimiento DPI: */
+
+.expirationdpitext{
+    /* position: absolute; */
+    width: 201px;
+    height: 27px;
+    left: 349px;
+    top: 146px;
+
+    font-family: Archivo;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 17px;
+
+    color: #365078;
+}
+
+
+/* DPI y Recibo de servicios. */
+
+.dpiandbil{
+    /* position: absolute; */
+    width: 201px;
+    height: 27px;
+    left: 349px;
+    top: 221px;
+
+    font-family: Archivo;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 17px;
+
+    color: #365078;
+}
+
+/* DPI y Recibo de servicios. */
+
+.draganddroptexttitle{
+    /* position: absolute; */
+    /* width: 201px; */
+    /* height: 27px; */
+    left: 349px;
+    top: 221px;
+    margin-bottom: 0px;
+
+    font-family: Archivo;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 17px;
+
+    color: #365078;
+}
+
+/* Arrastra y suelta aquí */
+
+.draganddroptext{
+    /* position: absolute; */
+    width: 159px;
+    height: 27px;
+    left: 398px;
+    top: 277px;
+
+    font-family: Archivo;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 17px;
+
+    color: #365078;
+
+    opacity: 0.5;
+}
+
+/* DPI new user */
+
+.nodpi{
+    /* position: absolute; */
+    width: 256px;
+    height: 36px;
+    left: 349px;
+    top: 97px;
+
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    box-sizing: border-box;
+    border-radius: 15px;
+}
+
+/* Fecha de vencimiento DPI */
+
+.expirationdpi{
+    /* position: absolute; */
+    width: 256px;
+    height: 36px;
+    left: 349px;
+    top: 165px;
+
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    box-sizing: border-box;
+    border-radius: 15px;
+
+}
+/* Arrastra y suelta aquí */
+
+.draganddrop{
+    /* position: absolute; */
+    width: 256px;
+    height: 90px;
+    left: 349px;
+    top: 248px;
+    cursor: pointer;
+    border: 1px dashed rgba(0, 0, 0, 0.5);
+    box-sizing: border-box;
+    border-radius: 15px;
+
+
+}
+
+/* Botón regresar */
+
+.back{
+    /* position: absolute; */
+    width: 100px;
+    height: 35px;
+    left: 500px;
+    top: 358px;
+    bottom: 7.64%;
+    cursor: pointer;
+    color: rgb(255, 255, 255);
+    background-color: cornflowerblue;
+    border-radius: 20px;
+    border: 0.2ch;
+}
+.guardar{
+    /* position: absolute; */
+    width: 100px;
+    height: 35px;
+    left: 380px;
+    top: 358px;
+    bottom: 1%;
+    cursor: pointer;
+    color: rgb(255, 255, 255);
+    background-color: #365078;
+    border-radius: 20px;
+    border: 0.2ch;
+}
+
+/* UPLOAD */
+
+.back1{
+    /* position: absolute; */
+    width: 150px;
+    height: 35px;
+    left: 400px;
+    top: 320px;
+    bottom: 2.64%;
+    cursor: pointer;
+    color: rgb(255, 255, 255);
+    background-color: cornflowerblue;
+    border-radius: 20px;
+    border: 0.2ch;
+}
+
+/*/////////*//*/* Estilos de busqueda principal*//*//////*//*///*//*/
+/* Botón regresar buscador */
+
+/* Group 73 */
+
+.usersearchicon{
+    /* position: absolute; */
+    width: 17px;
+    height: 23px;
+    left: 43px;
+    top: 23px;
+}
+
+/* Busqueda de clientes */
+
+.usersearchitittle{
+    /* position: absolute; */
+    width: 269px;
+    height: 27px;
+    left: 66px;
+    top: 23px;
+    
+    font-family: Archivo;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 26px;
+    
+    
+    
+    color: #365078;
+    }
+    /* Botón regresar buscador */
+.back-1{
+    /* position: absolute; */
+    width: 100px;
+    height: 35px;
+    left: 80px;
+    top: 63px;  
+    bottom: 7.64%;
+    cursor: pointer;
+    color: rgb(255, 255, 255);
+    background-color: rgb(56, 87, 146);
+    border-radius: 20px;
+    opacity: 0.5;
+    border: 0.2ch;
+}
+/* Buscador */
+
+.search{
+    /* position: absolute; */
+    width: 256px;
+    height: 36px;
+    left: 320px;
+    top: 63px;
+    text-align: center;
+    border-radius: 20px;
+}
+
+/* agregar cliente */
+
+.addclient{
+   
+
+
+    /* position: absolute; */
+    top:65px;
+    right: 15.06%;
+    height: 36px;
+    left:770px;
+
+    cursor: pointer;
+}
+
+/* Agregar cliente text */
+
+.addclienttext{
+    /* position: absolute; */
+    width: 186px;
+    height: 27px;
+    left:810px;
+    top:75px;
+    
+    font-family: Archivo;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 13px;
+
+    letter-spacing: -0.04em;
+    cursor: pointer;
+    color: #365078;
+}
+
+/* Botón información cliente */
+
+.inf{
+position:static;
+
+width: 197px;
+height: 27px;
+
+text-align: center;
+
+bottom: 7.64%;
+    cursor: pointer;
+    color: rgb(255, 255, 255);
+    background-color: rgb(56, 87, 146);
+    border-radius: 20px;
+
+    border: 0.2ch;
+}
+
+/* Botón buscar */
+
+.searchf {
+    /* position: absolute; */
+    width: 87px;
+    height: 37px;
+    left: 800px;
+    top: 120px;
+
+    bottom: 7.64%;
+    cursor: pointer;
+    color: rgb(255, 255, 255);
+    background-color: rgb(56, 87, 146);
+    border-radius: 20px;
+
+    border: 0.2ch;
+}
+
+
+/* Hasta: */
+
+.texthasta{
+    /* position: absolute; */
+    width: 186px;
+    height: 27px;
+    left: 420px;
+    top: 129px;
+
+    font-family: Archivo;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 17px;
+
+    color: #000000;
+}
+
+
+/* Desde: */
+
+.textdesde{
+    /* position: absolute; */
+    width: 186px;
+    height: 27px;
+    left: 80px;
+    top: 129px;
+
+    font-family: Archivo;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 17px;
+
+    color: #000000;
+
+}
+
+/* Group 22 */
+.calendarsearchsince{
+
+    /* position: absolute; */
+    width: 256px;
+    height: 36px;
+    left: 480px;
+    top: 120px;
+
+}
+
+/* Group 23 */
+
+.calendarsearchuntil{
+
+    /* position: absolute; */
+    width: 256px;
+    height: 36px;
+    left: 144px;
+    top: 120px;
+}
+
+/* Resultados: */
+
+.results{
+    /* position: absolute; */
+    width: 186px;
+    height: 27px;
+    left: 50px;
+    top: 192px;
+
+    font-family: Archivo;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 17px;
+
+    color: #000000;
+}
+
+/* Linea divisora */
+
+.line {
+    /* position: absolute; */
+    width: 5px;
+    height: 100%;
+    left: 320px;
+    top: 187px;
+    margin-left: 30%;
+    background: #C4C4C4;
+
+}
+
+/* User name tittle */
+
+.usernametittle{
+    /* position: absolute; */
+    width: 250px;
+    height: 17px;
+    left: 449px;
+    top: 179px;
+
+    font-family: Archivo;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 17px;
+    border: 0ch;
+    color: #000000;
+}
+
+/* user icon */
+
+.usericon{
+    /* position: absolute; */
+    width: 14.81px;
+    height: 18px;
+    left: 352px;
+    top: 0px;
+}
+
+/* Tabla de resultados */
+
+.searchresults{
+    /* position: absolute; */
+    width: 260px;
+    height: 285px;
+    left: 52px;
+    top: 218px;
+}
+
+/* Tabla de busquedas anteriores */
+
+.latestsresults {
+    /* position: absolute; */
+    width: 260px;
+    height: 285px;
+    left: 0px;
+    top: 440px;
+    }
+
+/* Tittle ultimas busquedas */
+
+.titlelatestssearchs {
+    /* position: absolute; */
+    width: 186px;
+
+
+    top: 517px;
+
+    font-family: Archivo;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 17px;
+
+    color: #000000;
+}
+
+/* Información del Cliente */
+
+    .titleinf{
+    /* position: absolute; */
+
+    font-family: Archivo;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 17px;
+
+    color: #000000;
+}
+
+/*////////* Sección de información  *//**//*///*/
+
+/* user name*/
+.usernamesi{
+    /* position: absolute; */
+    width: 142px;
+    height: 17px;
+    left: 353px;
+    top: 50px;
+
+    font-family: Archivo;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 17px;
+
+    color: #000000;
+}
+
+/* user icon */
+
+.saleicon{
+    /* position: absolute; */
+    width: 14.81px;
+    height: 18px;
+    left: 352px;
+    top: 200px;
+    }
+    
+    /* Correo electronico: */
+.emailtittle{
+
+
+    /* position: absolute; */
+    width: 140px;
+    height: 17px;
+    left: 353px;
+    top: 50px;
+
+    font-family: Archivo;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 17px;
+
+    color: #000000;
+
+}
+/* Teléfono: */
+.phonetittle{
+
+
+
+    /* position: absolute; */
+    width: 65px;
+    height: 17px;
+    left: 353px;
+    top: 70px;
+
+    font-family: Archivo;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 17px;
+
+    color: #000000;
+
+
+
+}
+
+/* DPI: */
+.dpitittle{
+
+    /* position: absolute; */
+    width: 32px;
+    height: 17px;
+    left: 353px;
+    top: 90px;
+
+    font-family: Archivo;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 17px;
+
+    color: #000000;
+
+
+}
+/* Vencimiento DPI: */
+.vencimientodpitittle{
+
+    /* position: absolute; */
+    width: 124px;
+    height: 17px;
+    left: 353px;
+    top: 110px;
+
+    font-family: Archivo;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 17px;
+
+    color: #000000;
+
+
+}
+/* Dirección: */
+.adresstittle{
+
+    /* position: absolute; */
+    width: 72px;
+    height: 17px;
+    left: 353px;
+    top: 130px;
+
+    font-family: Archivo;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 17px;
+
+    color: #000000;
+
+}
+
+/****************** Información de venta*****************************/
+
+
+
+/* Información de venta: */
+
+    .infsaletittle{
+    /* position: absolute; */
+    width: 167px;
+    height: 17px;
+    left: 379px;
+    top: 200px;
+
+    font-family: Archivo;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 17px;
+
+    color: #000000;
+
+}
+
+/* Descuento porcentual %: */
+.descperceptittle{
+    /* position: absolute; */
+    width: 200px;
+    height: 17px;
+    left: 352px;
+    top: 220px;
+
+    font-family: Archivo;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 17px;
+
+    color: #000000;
+
+}
+
+/* Enganche: */
+
+.engagetittle{
+    /* position: absolute; */
+    width: 77px;
+    height: 17px;
+    left: 352px;
+    top:240px;
+
+    font-family: Archivo;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 17px;
+
+    color: #000000;
+
+}
+
+/* Pagos de enganche */
+
+.engagepaymentstittle{
+    /* position: absolute; */
+    width: 143px;
+    height: 17px;
+    left: 353px;
+    top: 260px;
+
+    font-family: Archivo;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 17px;
+
+    color: #000000;
+}
+
+/* Nombre del Cliente: */
+
+.usernametittleinfo{
+
+    /* position: absolute; */
+    font-family: Archivo;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 17px;
+
+    color: #000000;
+}
+
+/* Pagos de enganche */
+
+.engagepaymentstittle{
+    /* position: absolute; */
+    width: 200px;
+    height: 17px;
+    left: 353px;
+    top: 260px;
+
+    font-family: Archivo;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 17px;
+
+    color: #000000;
+}
+
+
+
+/**** Sección de información/*/
+
+.secinfo{
+    top: 40px;
+}
+
+
+/* Plazo de financimiento: */
+
+.plazofin{
+    /* position: absolute; */
+    width: 166px;
+    height: 17px;
+    left: 353px;
+    top: 280px;
+
+    font-family: Archivo;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 17px;
+
+    color: #000000;
+
+}
+ /* Parqueo extra: */
+.parqueoextra{
+
+   
+
+
+/* position: absolute; */
+width: 105px;
+height: 17px;
+left: 353px;
+top: 300px;
+
+font-family: Archivo;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 17px;
+
+color: #000000;
+
+
+}
+/* Bodegas extra: */
+.bodegaextra{
+
+/* position: absolute; */
+width: 108px;
+height: 17px;
+left: 352px;
+top: 320px;
+
+font-family: Archivo;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 17px;
+
+color: #000000;
+
+
+}
+/* Monto Reserva: */
+.montoreservatittle{
+
+/* position: absolute; */
+width: 113px;
+height: 17px;
+left: 353px;
+top: 340px;
+
+font-family: Archivo;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 17px;
+color: #000000;
+
+}
+/* Información de venta: */
+
+.infoventtittle{
+/* position: absolute; */
+/* width: 167px; */
+height: 17px;
+left: 379px;
+top: 400px;
+
+font-family: Archivo;
+font-style: normal;
+font-weight: bold;
+font-size: 16px;
+line-height: 17px;
+
+color: #000000;
+}
+  /* Nivel: */
+.niveltittle{
+
+    /* position: absolute; */
+    width: 40px;
+    height: 17px;
+    left: 354px;
+    top: 440px;
+
+    font-family: Archivo;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 17px;
+
+    color: #000000;
+
+}
+/* Apartamento: */
+.aptotittle{
+
+    
+
+
+/* position: absolute; */
+width: 97px;
+height: 17px;
+left: 354px;
+top: 460px;
+
+font-family: Archivo;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 17px;
+
+color: #000000;
+}
+ /* app icon */
+.appicon{
+
+/* position: absolute; */
+width: 14.81px;
+height: 18px;
+left: 352px;
+top: 400px;
+
+}
+
+/* Tamaño en mt2: */
+.sizetittle{
+    /* position: absolute; */
+    width: 200px;
+    height: 17px;
+    left: 354px;
+    top: 480px;
+
+    font-family: Archivo;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 17px;
+
+    color: #000000;
+
+}
+
+/* Habitaciones: */
+.habtittle{
+
+    /* position: absolute; */
+    width: 97px;
+    height: 17px;
+    left: 354px;
+    top: 500px;
+
+    font-family: Archivo;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 17px;
+
+    color: #000000;
+    }
+
+/* Área de bodega en mt2: */
+
+.areabodetittle{
+    /* position: absolute; */
+    width: 169px;
+    height: 17px;
+    left: 353px;
+    top: 520px;
+
+    font-family: Archivo;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 17px;
+
+    color: #000000;
+    }
+ /* Parqueo de moto: */
+.parqmototittle{
+   
+
+
+    /* position: absolute; */
+    width: 128px;
+    height: 17px;
+    left: 354px;
+    top: 540px;
+
+    font-family: Archivo;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 17px;
+
+    color: #000000;
+}
+
+/* Parqueo de carro: */
+.parqcarrotittle{
+
+    /* position: absolute; */
+    width: 129px;
+    height: 17px;
+    left: 354px;
+    top: 560px;
+
+    font-family: Archivo;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 17px;
+
+    color: #000000;
+}
+
+/* Área de Jardin en mt2: */
+
+.areajardintittle{
+    /* position: absolute; */
+    width: 200px;
+    height: 17px;
+    left: 354px;
+    top: 580px;
+
+    font-family: Archivo;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 17px;
+
+    color: #000000;
+
+}
+
+/* Precio total (GtTQ): */
+
+.preciototaltittle{
+    /* position: absolute; */
+    width: 139px;
+    height: 17px;
+    left: 353px;
+    top: 600px;
+
+    font-family: Archivo;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 17px;
+
+    color: #000000;
+
+}
+
+/*/*//*///*//* Información del Vendedor */
+
+/* icono de sección info vendedor */
+.iconselltittle{
+    /* position: absolute; */
+    width: 14.81px;
+    height: 18px;
+    left: 352px;
+    top: 650px;
+
+}
+
+.infovendtittle{
+    /* position: absolute; */
+    width: 198px;
+    height: 17px;
+    left: 374px;
+    top: 650px;
+
+    font-family: Archivo;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 17px;
+
+    color: #000000;
+
+}
+.userinfo{
+    width: 50%;
+}
+/* Nombre del Vendedor */
+
+.sellernametittle{
+    /* position: absolute; */
+    width: 220px;
+    height: 17px;
+    left: 353px;
+    top: 680px;
+
+    font-family: Archivo;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 17px;
+
+    color: #000000;
+}
+/* Correo electronico: */
+
+.sellermailtittle{
+    /* position: absolute; */
+    width: 140px;
+    height: 17px;
+    left: 353px;
+    top: 700px;
+
+    font-family: Archivo;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 17px;
+
+    color: #000000;
+
+}
+/* Group 46 */
+
+.buscarcotiza{
+/* position: absolute; */
+width: 157px;
+height: 37px;
+left: 454px;
+top: 1103px;
+text-align: center;
+color: #FFFFFF;
+background-color: #365078;
+border-radius: 20px;
+}
+.generarcotiza{
+    /* position: absolute; */
+    width: 157px;
+    height: 37px;
+    left: 454px;
+    top: 1103px;
+    text-align: center;
+
+    color: #FFFFFF;
+    background-color: #365078;
+    border-radius: 20px;
+    }
+    .buscarcotiza{
+        /* position: absolute; */
+        width: 157px;
+        height: 37px;
+        left: 454px;
+        top: 1103px;
+        text-align: center;
+
+        color: #FFFFFF;
+        background-color: #365078;
+        border-radius: 20px;
+        }
+        .regresarcot{
+            /* position: absolute; */
+            /* width: 157px; */
+            height: 37px;
+            left: 454px;
+            top: 1103px;
+            
+            color: #FFFFFF;
+            background-color: #365078;
+            border-radius: 20px;
+            }
+/* Teléfono: */
+
+.sellerphonetittle{
+    /* position: absolute; */
+    width: 65px;
+    height: 17px;
+    left: 353px;
+    top: 720px;
+
+    font-family: Archivo;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 17px;
+
+    color: #000000;
+}
+.form-control
+{
+    height: 24px;
+    padding: 1px 5px;
+}
+
+/*/*//*///*//* COTIZACIÓN */
+
+.icontittlecotizacion{
+    /* position: absolute; */
+width: 35px;
+height: 35px;
+
+
+}
+
+/* Enganches */
+
+.engagementtittle{   
+
+
+    position: absolute;
+    width: 257px;
+    height: 85px;
+    left: 201px;
+    top: 168px;
+    
+    font-family: archivo;
+    font-style:normal;
+    font-weight:bold;
+    font-size: 48px;
+    line-height: 85px;
+    /* identical to box height */
+    
+    letter-spacing: 0.05em;
+    
+    color: #365078;
+    
+}
+
+
+/* handshake 1 */
+
+.engageicon{
+position: absolute;
+width: 35px;
+height: 35px;
+left: 157px;
+top: 193px;
+
+}
+
+/* *Selección de nivel: */
+.slevelt{
+/* *Selección de nivel: */
+
+
+/* position: absolute; */
+width: 144px;
+height: 18px;
+left: 166px;
+top: 351px;
+
+font-family: Archivo;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 17px;
+/* identical to box height */
+
+text-align: center;
+
+color:#365078;
+}
+
+
+/* input selección de nivel */
+
+.seleclevel{
+/* position: absolute; */
+width: 256px;
+height: 36px;
+left: 164px;
+top: 380px;
+margin-right: 20px;
+border-radius: 20px;
+}
+
+/* *Apartamento */
+.apartamentotittle{
+
+position: absolute;
+width: 99px;
+height: 18px;
+left: 451px;
+top: 351px;
+
+font-family: Archivo;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 17px;
+
+color: #365078;
+}
+
+
+/* input apartamento */
+
+.apartamento{
+position: absolute;
+width: 256px;
+height: 36px;
+left: 449px;
+top: 380px;
+
+border: 1px solid rgba(0, 0, 0, 0.5);
+box-sizing: border-box;
+border-radius: 20px;
+
+}
+
+/* Tamaño en mt2: */
+.tat {
+
+position: absolute;
+width: 112px;
+height: 17px;
+left: 733px;
+top: 351px;
+
+font-family: Archivo;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 17px;
+
+color: #365078;
+
+}
+
+/* input tamaño */
+
+.tamaño{
+position: absolute;
+width: 256px;
+height: 36px;
+left: 735px;
+top: 380px;
+
+background: rgba(201, 198, 198, 0.4);
+border: 1px solid rgba(0, 0, 0, 0.5);
+box-sizing: border-box;
+border-radius: 15px;
+}
+
+/* Habitaciones: */
+
+.habitacionestittle{
+position: absolute;
+width: 97px;
+height: 17px;
+left: 1020px;
+top: 351px;
+
+font-family: Archivo;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 17px;
+
+color: #365078;
+}
+
+/* input habitaciones */
+
+.habitaciones{
+position: absolute;
+width: 256px;
+height: 36px;
+left: 1020px;
+top: 380px;
+
+background: rgba(201, 198, 198, 0.4);
+border: 1px solid rgba(0, 0, 0, 0.5);
+box-sizing: border-box;
+border-radius: 15px;
+}
+
+/* Área de bodega en mt2: */
+
+.abodegatittle{
+position: absolute;
+width: 181px;
+height: 18px;
+left: 164px;
+top: 437px;
+
+font-family: Archivo;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 17px;
+
+color: #365078;
+}
+
+
+/* input área de bodega en mt2 */
+
+.abodega{
+position: absolute;
+width: 256px;
+height: 36px;
+left: 163px;
+top: 466px;
+
+background: rgba(201, 198, 198, 0.4);
+border: 1px solid rgba(0, 0, 0, 0.5);
+box-sizing: border-box;
+border-radius: 15px;
+}
+
+/* Parqueo de moto: */
+
+.parqueomototittle{
+position: absolute;
+width: 141px;
+height: 18px;
+left: 449px;
+top: 437px;
+
+font-family: Archivo;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 17px;
+
+color: #365078;
+}
+
+
+/* input parqueo moto*/
+
+.parqueomoto{
+position: absolute;
+width: 256px;
+height: 36px;
+left: 448px;
+top: 466px;
+
+background: rgba(201, 198, 198, 0.4);
+border: 1px solid rgba(0, 0, 0, 0.5);
+box-sizing: border-box;
+border-radius: 15px;
+}
+/* Parqueo de carro: */
+
+.parqueocarrotittle{
+position: absolute;
+width: 250px;
+height: 17px;
+left: 734px;
+top: 437px;
+
+font-family: Archivo;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 17px;
+
+color: #365078;
+}
+
+/* INPUT PARQUEO CARRO */
+
+.parqueocarro{
+position: absolute;
+width: 256px;
+height: 36px;
+left: 734px;
+top: 466px;
+
+background: rgba(201, 198, 198, 0.4);
+border: 1px solid rgba(0, 0, 0, 0.5);
+box-sizing: border-box;
+border-radius: 15px;
+}
+/* Área de Jardín en mt2: */
+.areadejardintittle{
+position: absolute;
+width: 300px;
+height: 17px;
+left: 1019px;
+top: 437px;
+
+font-family: Archivo;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 17px;
+
+color:#365078;
+}
+
+
+/* INPUT AREA DE JARDIN */
+
+.areajardin{
+position: absolute;
+width: 256px;
+height: 36px;
+left: 1019px;
+top: 466px;
+
+background: rgba(201, 198, 198, 0.4);
+border: 1px solid rgba(0, 0, 0, 0.5);
+box-sizing: border-box;
+border-radius: 15px;
+}
+
+/* Precio total(GTQ): */
+
+.preciototaltittle{
+position: absolute;
+width: 153px;
+height: 27px;
+left: 151px;
+top: 523px;
+
+font-family: Archivo;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 17px;
+text-align: center;
+
+color: #365078;
+
+}
+
+/* INPUT PRECIO TOTAL */
+
+.preciototal{
+position: absolute;
+width: 256px;
+height: 36px;
+left: 163px;
+top: 543px;
+
+background: rgba(201, 198, 198, 0.4);
+border-radius: 15px;
+}
+
+/*/***************************DATOS DEL CLIENTE*******************************************//*
+
+/* *Nombre de Cliente: */
+
+/* Datos del cliente: */
+
+.datosdelclientetittle{
+position: absolute;
+width: 186px;
+height: 27px;
+left: 183px;
+top: 628px;
+
+font-family: Archivo;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 17px;
+
+color: #365078;
+}
+
+
+/* datos del cliente icono */
+
+.datosdelclienteicono{
+position: absolute;
+width: 14.81px;
+height: 18px;
+left: 163.47px;
+top: 628px;
+}
+/*NOMBRE DEL CLIENTE*/
+
+/* *Nombre de Cliente: */
+
+.namect{
+position: absolute;
+width: 186px;
+height: 27px;
+left: 164px;
+top: 685px;
+
+font-family: Archivo;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 17px;
+
+color: #365078;
+
+}
+
+/* INPUT NOMBRE DEL CLIENTE  */
+
+.namec{
+position: absolute;
+width: 256px;
+height: 36px;
+left: 165px;
+top: 714px;
+
+border: 1px solid rgba(0, 0, 0, 0.5);
+box-sizing: border-box;
+border-radius: 15px;
+}
+
+/* *Correo: */
+
+.correotittle{
+position: absolute;
+width: 186px;
+height: 27px;
+left: 450px;
+top: 685px;
+
+font-family: Archivo;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 17px;
+
+color: #365078;
+}
+
+
+/* input Correo  */
+
+.correo{
+position: absolute;
+width: 256px;
+height: 36px;
+left: 450px;
+top: 714px;
+
+border: 1px solid rgba(0, 0, 0, 0.5);
+box-sizing: border-box;
+border-radius: 15px;
+}
+
+/* *Teléfono: */
+.telefonotittle{
+position: absolute;
+width: 186px;
+height: 27px;
+left: 733px;
+top: 685px;
+
+font-family: Archivo;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 17px;
+
+color: #365078;
+}
+
+
+/* input telefono */
+
+.telefono{
+position: absolute;
+width: 256px;
+height: 36px;
+left: 734px;
+top: 714px;
+
+border: 1px solid rgba(0, 0, 0, 0.5);
+box-sizing: border-box;
+border-radius: 15px;
+}
+
+/* *Nit: */
+
+.nittittle{
+position: absolute;
+width: 186px;
+height: 27px;
+left: 1020px;
+top: 685px;
+
+font-family: Archivo;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 17px;
+
+color: #365078;
+}
+
+
+/* INPUT NIT */
+
+.Nit{
+position: absolute;
+width: 256px;
+height: 36px;
+left: 1021px;
+top: 714px;
+
+border: 1px solid rgba(0, 0, 0, 0.5);
+box-sizing: border-box;
+border-radius: 15px;
+}
+
+/* *DPI: */
+
+.dpitittle{
+    position: absolute;
+    width: 186px;
+    height: 27px;
+    left: 164px;
+    top: 776px;
+    
+
+font-family: Archivo;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 17px;
+
+color: #365078;
+
+}
+
+/* input dpi */
+
+.dpi{
+position: absolute;
+width: 256px;
+height: 36px;
+left: 165px;
+top: 805px;
+
+border: 1px solid rgba(0, 0, 0, 0.5);
+box-sizing: border-box;
+border-radius: 15px;
+}
+
+
+/* *Fecha Emisión de DPI: */
+
+.fedpitittle{
+position: absolute;
+width: 186px;
+height: 27px;
+left: 450px;
+top: 776px;
+
+font-family: Archivo;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 17px;
+
+color: #365078;
+
+}
+
+/* INPUT FECHA EMCISÓN DPI */
+
+.fedpi{
+position: absolute;
+width: 256px;
+height: 36px;
+left: 450px;
+top: 805px;
+
+border: 1px solid rgba(0, 0, 0, 0.5);
+box-sizing: border-box;
+border-radius: 15px;
+}
+/* *Dirección: */
+
+.direcciontittle{
+position: absolute;
+width: 186px;
+height: 27px;
+left: 733px;
+top: 776px;
+
+font-family: Archivo;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 17px;
+
+color: #365078;
+}
+
+
+/* input dirección */
+
+.direccion{
+position: absolute;
+width: 256px;
+height: 36px;
+left: 734px;
+top: 805px;
+
+border: 1px solid rgba(0, 0, 0, 0.5);
+box-sizing: border-box;
+border-radius: 15px;
+}
+
+/* *Nacionalidad: */
+
+.nact{
+/* *Nacionalidad: */
+
+
+position: absolute;
+width: 186px;
+height: 27px;
+left: 1020px;
+top: 776px;
+
+font-family: Archivo;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 17px;
+
+color: #365078;
+
+
+font-family: Archivo;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 17px;
+
+color: #365078;
+}
+
+
+/* INPUT NACIONALIDAD */
+
+.nacionalidad{
+position: absolute;
+width: 256px;
+height: 36px;
+left: 1021px;
+top: 805px;
+border-radius: 20px;
+}
+
+/* *Fecha de nacimiento: */
+
+.nacimientotittle{
+position: absolute;
+width: 186px;
+height: 27px;
+left: 167px;
+top: 871px;
+
+font-family: Archivo;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 17px;
+
+color: #365078;
+}
+
+
+/* INPUT fecha de nacimiento*/
+
+.nacimiento{
+position: absolute;
+width: 256px;
+height: 36px;
+left: 168px;
+top: 900px;
+border-radius: 20px;
+}
+
+/* *Estado civil: */
+
+.estadociviltittle{
+position: absolute;
+width: 186px;
+height: 27px;
+left: 453px;
+top: 871px;
+
+font-family: Archivo;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 17px;
+
+color: #365078;
+}
+
+
+/* INPUT ESTADO CIVIL */
+
+
+.estadocivil{
+position: absolute;
+width: 256px;
+height: 36px;
+left: 453px;
+top: 900px;
+border-radius: 20px;
+}
+
+/* *Empresa donde labora: */
+.empresadondelaboratittle{
+position: absolute;
+width: 186px;
+height: 27px;
+left: 736px;
+top: 871px;
+
+font-family: Archivo;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 17px;
+
+color: #365078;
+}
+
+
+/* input empresa donde trabaja */
+
+.empresadondetrabaja{
+position: absolute;
+width: 256px;
+height: 36px;
+left: 737px;
+top: 900px;
+
+border: 1px solid rgba(0, 0, 0, 0.5);
+box-sizing: border-box;
+border-radius: 15px;
+}
+
+/* *Puesto en empresa: */
+.puestoempresatittle{
+position: absolute;
+width: 186px;
+height: 27px;
+left: 1023px;
+top: 871px;
+
+font-family: Archivo;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 17px;
+
+color: #365078;
+
+}
+
+/* Rectangle 43 */
+
+.addcodeudor{
+position: absolute;
+width: 173px;
+height: 37px;
+left: 1054px;
+top: 1150px;
+cursor: pointer;
+color: blanchedalmond;
+background: #6A99E0;
+border-radius: 85px; 
+}
+
+/* INPUT PUESTO EMPRESA */
+.puestoenlaempresa{
+position: absolute;
+width: 256px;
+height: 36px;
+left: 1024px;
+top: 900px;
+
+border: 1px solid rgba(0, 0, 0, 0.5);
+box-sizing: border-box;
+border-radius: 15px;
+}
+
+/* *Direcció de la empresa: */
+.direccionemptittle{
+position: absolute;
+width: 186px;
+height: 27px;
+left: 169px;
+top: 964px;
+
+font-family: Archivo;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 17px;
+
+color: #365078;
+
+}
+
+/* INPUT DIRECCIÓN DE LA EMPRESA */
+
+.direccionemp{
+position: absolute;
+width: 256px;
+height: 36px;
+left: 170px;
+top: 993px;
+
+border: 1px solid rgba(0, 0, 0, 0.5);
+box-sizing: border-box;
+border-radius: 15px;
+}
+
+/* *Salario mensual: */
+.salariomensualtittle{
+position: absolute;
+width: 186px;
+height: 27px;
+left: 455px;
+top: 964px;
+
+font-family: Archivo;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 17px;
+
+color: #365078;
+}
+
+
+/* INPUT SALARIO MENSUAL */
+
+.salariomensual{
+  
+
+
+position: absolute;
+width: 256px;
+height: 36px;
+left: 455px;
+top: 993px;
+
+border: 1px solid rgba(0, 0, 0, 0.5);
+box-sizing: border-box;
+border-radius: 15px;
+}
+
+/* *Otros ingresos: */
+
+.otrosingresostittle{
+    position: absolute;
+    width: 186px;
+    height: 27px;
+    left: 738px;
+    top: 964px;
+
+    font-family: Archivo;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 17px;
+
+    color: #365078;
+}
+
+
+/* INPUT OTROS INGRESOS */
+
+.otrosingresos{
+    position: absolute;
+    width: 256px;
+    height: 36px;
+    left: 739px;
+    top: 993px;
+
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    box-sizing: border-box;
+    border-radius: 15px;
+}
+
+/* *Monto otros ingresos: */
+
+.montootrosingresostittle{
+    position: absolute;
+    width: 186px;
+    height: 27px;
+    left: 1025px;
+    top: 964px;
+
+    font-family: Archivo;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 17px;
+
+    color: #365078;
+
+
+}
+/* INPUT MONTO OTROS INGRESOS */
+
+.montootrosingresos{
+    position: absolute;
+    width: 256px;
+    height: 36px;
+    left: 1026px;
+    top: 993px;
+
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    box-sizing: border-box;
+    border-radius: 15px;
+}
+
+/* *Subir DPI: */
+
+.adddpitittle{
+    position: absolute;
+    width: 226px;
+    height: 27px;
+    left: 171px;
+    top: 1054px;
+
+    font-family: Archivo;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 17px;
+
+    color: #365078;
+}
+
+
+/* INPUT SUBIR DPI */
+
+.subirdpi{
+    position: absolute;
+    width: 250px;
+    height: 191px;
+    left: 171px;
+    top: 1086px;
+    border-style: dashed;
+}
+
+/* *Subir Recibo: */
+
+.subirrecibotittle{
+    position: absolute;
+    width: 186px;
+    height: 27px;
+    left: 457px;
+    top: 1054px;
+
+    font-family: Archivo;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 17px;
+
+    color: #365078;
+}
+/* INPUT RECIBOS */
+
+.recibo{
+    position: absolute;
+    width: 250px;
+    height: 188px;
+    left: 452px;
+    top: 1089px;
+    border-style: dashed;
+}
+
+/* ¿Ha obtenido créditos con FHA? */
+
+.Checktittle{
+    position: absolute;
+    width: 231px;
+    height: 17px;
+    left: 761px;
+    top: 1098px;
+
+    font-family: Archivo;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 17px;
+    letter-spacing: -0.04em;
+
+    color: #000000;
+
+
+}
+/* CHECK CREDITOS FHA */
+
+.checktesxt{
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    left: 741px;
+    top: 1102px;
+
+    background: #C4C4C4;
+}
+
+/* Información de venta */
+
+.infoselicon{
+    position: absolute;
+    width: 21px;
+    height: 18.86px;
+    left: 156px;
+    top: 1349px;
+}
+/* botón eliminar */
+
+.eliminar {
+    position: absolute;
+width: 173px;
+height: 37px;
+left: 1054px;
+top: 1203px;
+color: brown;
+cursor: pointer;
+background: #FFFFFF;
+border: 1px solid #DF2A2A;
+box-sizing: border-box;
+border-radius: 85px;
+}
+/* Información de venta: */
+
+.infosaltittle{
+    position: absolute;
+    width: 186px;
+    height: 27px;
+    left: 180.53px;
+    top: 1349px;
+
+    font-family: Archivo;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 17px;
+
+    color:  #365078;
+}
+
+/* *Enganche(%): */
+
+.enportittle{
+    position: absolute;
+    width: 186px;
+    height: 27px;
+    left: 161.53px;
+    top: 1406px;
+
+    font-family: Archivo;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 17px;
+
+    color: #365078;
+}
+
+/* INPUT INFORMACIÓN DE VENTA */
+
+.engpor{
+    position: absolute;
+    width: 256px;
+    height: 36px;
+    left: 162.53px;
+    top: 1435px;
+
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    box-sizing: border-box;
+    border-radius: 15px;
+}
+
+/* Parqueos extra: */
+
+.parqueosextratittle{
+    position: absolute;
+    width: 186px;
+    height: 27px;
+    left: 447.53px;
+    top: 1406px;
+
+    font-family: Archivo;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 17px;
+
+    color: #365078;
+
+}
+
+/* PARQUEOS EXTRA */
+
+.parqueosextra{
+    position: absolute;
+    width: 256px;
+    height: 36px;
+    left: 447.53px;
+    top: 1435px;
+
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    box-sizing: border-box;
+    border-radius: 15px;
+}
+
+/* Bodegas extra: */
+
+.bodegasextratittle{
+    position: absolute;
+    width: 186px;
+    height: 27px;
+    left: 730.53px;
+    top: 1406px;
+
+    font-family: Archivo;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 17px;
+
+    color: #365078;
+
+}
+
+/* BODEGAS EXTRA */
+
+.bodegasextra{
+    position: absolute;
+    width: 256px;
+    height: 36px;
+    left: 731.53px;
+    top: 1435px;
+
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    box-sizing: border-box;
+    border-radius: 15px;
+}
+
+/* Monto Reserva: */
+
+.montoreservatittle{
+position: absolute;
+width: 186px;
+height: 27px;
+left: 1017.53px;
+top: 1406px;
+
+font-family: Archivo;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 17px;
+
+color: #365078;
+}
+
+
+/* INPUT monto reserva */
+
+.montoreserva{
+position: absolute;
+width: 256px;
+height: 36px;
+left: 1018.53px;
+top: 1435px;
+
+border: 1px solid rgba(0, 0, 0, 0.5);
+box-sizing: border-box;
+border-radius: 15px;
+}
+
+/* *Fecha Pago Reserva: */
+
+.fprtittle{
+position: absolute;
+width: 186px;
+height: 27px;
+left: 161.53px;
+top: 1497px;
+
+font-family: Archivo;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 17px;
+
+color: #365078;
+
+}
+
+/* INPUT FECHA DE PAGO RESERVA */
+
+.fpr{
+position: absolute;
+width: 256px;
+height: 36px;
+left: 162.53px;
+top: 1526px;
+border-radius: 20px;
+}
+
+/* Fecha Pago Inicial: */
+
+.fpitittle{
+position: absolute;
+width: 186px;
+height: 27px;
+left: 730.53px;
+top: 1497px;
+
+font-family: Archivo;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 17px;
+
+color: #365078;
+
+}
+
+/* INPUT FECHA DE PAGO INICIAL */
+
+.fpi{
+position: absolute;
+width: 256px;
+height: 36px;
+left: 731.53px;
+top: 1526px;
+border-radius: 20px;
+}
+
+/* *Pagos de enganche: */
+
+.pdetittle{
+position: absolute;
+width: 186px;
+height: 27px;
+left: 1017.53px;
+top: 1497px;
+
+font-family: Archivo;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 17px;
+
+color: #365078;
+}
+
+
+/* input pagos de enganche*/
+
+.pde{
+position: absolute;
+width: 256px;
+height: 36px;
+left: 1018.53px;
+top: 1526px;
+border-radius: 20px;
+}
+/* Pago de Promesa: */
+
+.pdptittle{
+position: absolute;
+width: 186px;
+height: 27px;
+left: 164.53px;
+top: 1592px;
+
+font-family: Archivo;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 17px;
+
+color: #365078;
+
+}
+
+/* INPUT PAGO DE PROMESA */
+
+.pgp{
+position: absolute;
+width: 256px;
+height: 36px;
+left: 165.53px;
+top: 1621px;
+
+border: 1px solid rgba(0, 0, 0, 0.5);
+box-sizing: border-box;
+border-radius: 15px;
+}
+
+/* (%)Descuento: */
+
+.descuentotittle{
+position: absolute;
+width: 186px;
+height: 27px;
+left: 450.53px;
+top: 1592px;
+
+font-family: Archivo;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 17px;
+
+color:#365078;
+
+}
+
+/* INPUT DESCUENTO */
+
+.descuento{
+position: absolute;
+width: 256px;
+height: 36px;
+left: 450.53px;
+top: 1621px;
+
+border: 1px solid rgba(0, 0, 0, 0.5);
+box-sizing: border-box;
+border-radius: 15px;
+}
+
+/* *Forma de pago: */
+
+.fdptittle{
+position: absolute;
+width: 186px;
+height: 27px;
+left: 733.53px;
+top: 1592px;
+
+font-family: Archivo;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 17px;
+
+color: #365078;
+}
+
+
+/* INPUT FORMA DE PAGO */
+
+.fdp{
+position: absolute;
+width: 256px;
+height: 36px;
+left: 734.53px;
+top: 1621px;
+border-radius: 20px;
+}
+
+/* *Banco Deposito Reserva: */
+
+.bdrtittle{
+position: absolute;
+width: 221px;
+height: 27px;
+left: 1021px;
+top: 1592px;
+
+font-family: Archivo;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 17px;
+
+color: #365078;
+
+}
+
+/* INPUT BANCO DEPOSITO RESERVA */
+
+.bdr{
+position: absolute;
+width: 256px;
+height: 36px;
+left: 1021.53px;
+top: 1621px;
+border-radius: 20px;
+}
+
+/* No. Depósito Reserva: */
+
+.ndrtittle{
+position: absolute;
+width: 186px;
+height: 27px;
+left: 166.53px;
+top: 1685px;
+
+font-family: Archivo;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 17px;
+
+color: #365078;
+}
+
+
+/* INPUT NO DEPOSITO DE RESERVA */
+
+.ndr{
+position: absolute;
+width: 256px;
+height: 36px;
+left: 167.53px;
+top: 1714px;
+
+border: 1px solid rgba(0, 0, 0, 0.5);
+box-sizing: border-box;
+border-radius: 15px;
+}
+
+/*/ Plazo de financiamiento (años): */
+
+.pfatittle{
+position: absolute;
+width: 261px;
+height: 27px;
+left: 448px;
+top: 1497px;
+
+font-family: Archivo;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 17px;
+
+color: #365078;
+
+}
+
+/* PLAZO DE FINANCIAMIENTO (AÑOS) */
+
+.plazofinan{
+    position: absolute;
+    width: 256px;
+    height: 36px;
+    left: 447.53px;
+    top: 1526px;
+    border-radius: 20px;
+}
+/* *Banco Cheque Reserva: */
+
+.bcrtittle{
+position: absolute;
+width: 186px;
+height: 27px;
+left: 452.53px;
+top: 1685px;
+
+font-family: Archivo;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 17px;
+
+color: #365078;
+}
+
+
+/* INPUT BANCO RESERVA */
+
+.bcr{
+position: absolute;
+width: 256px;
+height: 36px;
+left: 452.53px;
+top: 1714px;
+border-radius: 20px;
+}
+
+/* INPUT CHE  */
+
+.chequereserva{
+position: absolute;
+width: 256px;
+height: 36px;
+left: 736.53px;
+top: 1714px;
+
+border: 1px solid rgba(0, 0, 0, 0.5);
+box-sizing: border-box;
+border-radius: 15px;
+}
+/* No. Cheque Reserva: */
+
+.ncrtittle{
+position: absolute;
+width: 186px;
+height: 27px;
+left: 735.53px;
+top: 1685px;
+
+font-family: Archivo;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 17px;
+
+color: #365078;
+}
+/* Observaciones: */
+
+.obstittle{
+position: absolute;
+width: 186px;
+height: 27px;
+left: 161px;
+top: 1805px;
+
+font-family: Archivo;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 17px;
+
+color:#365078;
+}
+
+
+/* INPUT OBSERVACIONES */
+
+.OBVS{
+position: absolute;
+width: 1114px;
+height: 217px;
+left: 161px;
+top: 1822px;
+
+border: 1px solid #365078;
+box-sizing: border-box;
+border-radius: 19px;
+}
+
+/* Adjuntar archivos extras */
+
+.subirarchivostittle{
+position: absolute;
+width: 186px;
+height: 27px;
+left: 163px;
+top: 2067px;
+
+font-family: Archivo;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 17px;
+
+color:#365078;
+
+}
+
+/* INPUT SUBIR ARCHIVOS */
+
+.isa{
+position: absolute;
+width: 1114px;
+height: 217px;
+left: 163px;
+top: 2084px;
+
+border: 1px dashed #365078;
+box-sizing: border-box;
+border-radius: 19px;
+}
+
+/* No. */
+
+.no{
+position: absolute;
+width: 71px;
+height: 27px;
+left: 376px;
+top: 2349px;
+
+font-family: Archivo;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 17px;
+
+color:#365078;
+
+}
+
+/* Pago Especial */
+
+.pagoespecial{
+position: absolute;
+width: 114px;
+height: 27px;
+left: 520px;
+top: 2349px;
+
+font-family: Archivo;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 17px;
+
+color: #365078;
+}
+
+
+/* Cuota */
+
+.cuota{
+position: absolute;
+width: 75px;
+height: 27px;
+left: 728px;
+top: 2349px;
+
+font-family: Archivo;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 17px;
+
+color:#365078;
+
+}
+
+/* Fecha */
+
+.fecha{
+position: absolute;
+width: 75px;
+height: 27px;
+left: 926px;
+top: 2349px;
+
+font-family: Archivo;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 17px;
+
+color: #365078;
+
+}
+
+/* Total: */
+
+.total{
+position: absolute;
+width: 75px;
+height: 27px;
+left: 1118px;
+top: 2349px;
+
+font-family: Archivo;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 17px;
+
+color: #365078;
+}
+
+/* CALCULAR CUOTA BOTON*/
+
+.ccb{
+position: absolute;
+width: 157px;
+height: 37px;
+left: 150px;
+top: 2384px;
+}
+
+/* INPUT GENERAR DOCUMENTO DE ENGANCHE*/
+   
+.gde{
+position: absolute;
+width: 277px;
+height: 37px;
+left: 582px;
+top: 2470px;
+}
+
+/* BOTÓN CALCULAR */
+
+.bc{
+position: absolute;
+width: 157px;
+height: 37px;
+left: 150px;
+top: 2384px;
+color: #ffffff;
+background-color: #365078;
+cursor: pointer;
+opacity: .8;
+border-radius: 20px;
+
+}
+
+
+/* No. */
+
+.no{
+position: absolute;
+width: 71px;
+height: 27px;
+left: 376px;
+top: 2349px;
+
+font-family: Archivo;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 17px;
+
+color:  #365078;
+}
+
+
+/* Pago Especial */
+
+.pe{
+position: absolute;
+width: 114px;
+height: 27px;
+left: 520px;
+top: 2349px;
+
+font-family: Archivo;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 17px;
+
+color:  #365078;
+
+}
+
+/* Cuota */
+
+.cuota{
+position: absolute;
+width: 75px;
+height: 27px;
+left: 728px;
+top: 2349px;
+
+font-family: Archivo;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 17px;
+
+color:  #365078;
+}
+
+
+/* Fecha */
+
+.fechas{
+position: absolute;
+width: 75px;
+height: 27px;
+left: 926px;
+top: 2349px;
+
+font-family: Archivo;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 17px;
+
+color:  #365078;
+
+
+}
+/* Total: */
+
+.total{
+position: absolute;
+width: 75px;
+height: 27px;
+left: 1118px;
+top: 2349px;
+
+font-family: Archivo;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 17px;
+
+color:  #365078;
+}
+
+.tabla{
+    width: 900px;
+    height: 300px;
+    position: absolute;
+    left: 350px;
+    top: 2384px;
+
+}
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #dddddd;
+  }
+
+/* BOTON GENERAR ENGANCHE */
+
+.bge{
+position: absolute;
+width: 277px;
+height: 37px;
+left: 585px;
+top: 2700px;
+color: #ffffff;
+background-color: #365078;
+cursor: pointer;
+border-radius: 20px;
+}
+
+.back{
+  
+position: absolute;
+width: 150px;
+height: 37px;
+left: 900px;
+top: 2700px;
+bottom: 2.9%;
+color: rgb(255, 255, 255);
+background: #365078;
+opacity: 0.5;
+cursor: pointer;
+box-sizing: border-box;
+border-radius: 85px;
+}
+
+/* Cotización */
+
+.textocotiza{
+/* /position: absolute; */
+/* width: 255px;
+height: 85px; */
+left: 205px;
+top: 168px;
+
+font-family: archivo;
+font-style: normal;
+font-weight: normal;
+font-size: 48px;
+line-height: 85px;
+/* identical to box height */
+
+letter-spacing: 0.05em;
+
+color: #365078;
+}
+
+/* *Apartamento */
+
+.aptotittle{
+/* position: absolute; */
+/* width: 99px; */
+height: 18px;
+left: 451px;
+top: 351px;
+margin-top: 10px;
+font-family: Archivo;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 17px;
+color: #365078;
+}
+
+
+/* input apartamento*/
+
+.aptocotiza{
+/* position: absolute; */
+width: 256px;
+height: 36px;
+left: 449px;
+top: 380px;
+margin-right: 20px;
+border-radius: 20px;
+}
+
+/* Tamaño en mt2: */
+
+.titsize{
+/* position: absolute; */
+width: 112px;
+height: 17px;
+left: 733px;
+top: 351px;
+
+font-family: Archivo;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 17px;
+margin-top: 10px;
+color:#365078;
+}
+
+
+/* INPUT  TAMAÑO M2 COTIZACIÓN */
+
+input{
+    color: #365078;
+}
+
+.in{
+/* position: absolute; */
+width: 256px;
+height: 36px;
+
+
+margin-right: 20px;
+border-radius: 20px;
+}
+
+/* texto Tamaño en mt2: */
+
+.tittletamaño{
+/* position: absolute; */
+/* width: 112px; */
+height: 17px;
+left: 733px;
+top: 351px;
+
+font-family: Archivo;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 17px;
+margin-top: 10px;
+color:#365078; 
+}
+/* INPUT Tamaño m2 */
+.tamañom{
+    
+/* position: absolute; */
+width: 256px;
+height: 36px;
+left: 735px;
+top: 380px;
+margin-right: 20px;
+
+border: 1px solid #365078;
+box-sizing: border-box;
+border-radius: 20px;
+}
+
+/* Habitaciones: */
+
+.habitacotizatittle{
+/* position: absolute; */
+/* width: 97px; */
+height: 17px;
+left: 1020px;
+top: 351px;
+
+font-family: Archivo;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 17px;
+
+color:#365078;
+margin-top: 10px;
+}
+
+.sleveltt{
+    /* *Selección de nivel: */
+    
+    
+    /* position: absolute; */
+    width: 144px;
+    height: 18px;
+    left: 166px;
+    top: 351px;
+    
+    margin-top: 10px;
+    font-family: Archivo;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 17px;
+    /* identical to box height */
+    
+    text-align: center;
+    
+    color:#365078;
+    }
+    
+    
+    /* input selección de nivel */
+    
+    .seleclevell{
+    /* position: absolute; */
+    width: 256px;
+    height: 36px;
+    left: 164px;
+    top: 380px;
+    margin-right: 20px;
+    border-radius: 20px;
+    }
+
+/* INPUT HABITACIONES COTIZA */
+
+.habitacotiza{
+/* position: absolute; */
+width: 256px;
+height: 36px;
+left: 1020px;
+top: 380px;
+margin-right: 20px;
+border: 1px solid #365078;
+box-sizing: border-box;
+border-radius: 20px;
+}
+
+
+
+/* Área de bodega en mt2: */
+
+.abodegacotiza{
+/* position: absolute; */
+width: 181px;
+height: 18px;
+left: 164px;
+top: 437px;
+
+font-family: Archivo;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 17px;
+/* identical to box height */
+
+margin-top: 10px;
+color:#365078;
+}
+
+/* INPUT BODEGA COTIZACIÓN */
+
+.bodegacotiza{
+
+
+
+/* position: absolute; */
+width: 256px;
+height: 36px;
+left: 163px;
+top: 466px;
+margin-right: 20px;
+
+border: 1px solid #365078;
+box-sizing: border-box;
+border-radius: 20px;
+}
+/* Parqueo de moto: */
+
+.parqueomototittlecotiza{
+
+/* position: absolute; */
+width: 141px;
+height: 18px;
+left: 449px;
+top: 437px;
+
+font-family: Archivo;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 17px;
+/* identical to box height */
+margin-top: 10px;
+
+color: #365078;
+
+}
+
+/* Área de bodega en mt2: */
+
+.areabodegatittlecotiza{
+
+/* position: absolute; */
+width: 159px;
+height: 17px;
+left: 1019px;
+top: 437px;
+
+font-family: Archivo;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 17px;
+
+color: #000000;
+
+}
+
+
+
+
+/* Área de Jardín en mt2: */
+
+.areajardinmtcotiza{
+/* Área de Jardín en mt2: */
+
+
+/* position: absolute; */
+width: 159px;
+height: 17px;
+left: 1019px;
+top: 437px;
+
+font-family: Archivo;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 17px;
+
+color: #365078;
+margin-top: 10px;
+
+}
+
+/* INPUT CARRO COTIZA */
+.parqueocarrocotiza {
+    
+/* position: absolute; */
+width: 256px;
+height: 36px;
+left: 734px;
+top: 466px;
+margin-right: 20px;
+
+border: 1px solid #365078;
+box-sizing: border-box;
+border-radius: 20px;
+
+}
+
+/* INPUT PARQUEO MOTO COTIZA */
+
+.parqueomotocotiza{
+/* position: absolute; */
+width: 256px;
+height: 36px;
+left: 448px;
+top: 466px;
+margin-right: 20px;
+
+border: 1px solid #365078;
+box-sizing: border-box;
+border-radius:20px;
+
+}
+/* tittle parqueo carro cotiza */
+
+.parqueocarrocotizatittle{
+   
+/* position: absolute; */
+/* width: 129px; */
+height: 17px;
+left: 734px;
+top: 437px;
+margin-top: 10px;
+font-family: Archivo;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 17px;
+
+color: #365078;
+
+
+}
+
+/* INPUT Área de Jardín en mt2 */
+
+.ARJIC{
+/* position: absolute; */
+width: 256px;
+height: 36px;
+left: 1019px;
+top: 466px;
+margin-right: 20px;
+
+border: 1px solid #365078;
+box-sizing: border-box;
+border-radius: 20px;
+}
+
+/* Precio total(GTQ): */
+
+.preciototalcotiza{
+/* position: absolute; */
+width: 153px;
+height: 27px;
+left: 151px;
+top: 523px;
+
+font-family: Archivo;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 17px;
+
+margin-top: 10px;
+color: #365078;
+}
+/* INPUT PRECIO TOTAL */
+
+.pretotcotiz{
+    /* position: absolute; */
+width: 256px;
+height: 36px;
+left: 1019px;
+top: 466px;
+margin-right: 20px;
+
+border:transparent;
+box-sizing: border-box;
+border-radius: 20px;
+}

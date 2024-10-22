@@ -1,0 +1,49 @@
+<?php
+
+class MergedPDF extends \FPDI
+{
+    private $documentsPaths = array();
+
+    public function Render()
+    {
+        $outputFileName = tempnam(sys_get_temp_dir(), 'merged');
+
+        // merge files and save resulting file as PDF version 1.4 for FPDI compatibility
+        $cmd = "/usr/bin/gs -q -dNOPAUSE -dBATCH -dCompatibilityLevel=1.4 -sDEVICE=pdfwrite -sOutputFile=$outputFileName";
+        foreach ($this->getDocumentsPaths() as $pdfpath) {
+            $cmd .= " $pdfpath ";
+        }
+        $result = Shell_exec($cmd);
+        $this->SetCreator('Your Software Name');
+        $this->setPrintHeader(false);
+        $numPages = $this->setSourceFile($outputFileName);
+        for ($i = 1; $i <= $numPages; $i++) {
+            $tplIdx = $this->importPage($i);
+            $this->AddPage();
+            $this->useTemplate($tplIdx);
+        }
+
+        unlink($outputFileName);
+
+        $content = $this->Output(null, 'S');
+
+        return $content;
+    }
+
+    public function getDocumentsPaths()
+    {
+        return $this->documentsPaths;
+    }
+
+    public function setDocumentsPaths($documentsPaths)
+    {
+        $this->documentsPaths = $documentsPaths;
+    }
+
+    public function addDocumentPath($documentPath)
+    {
+        $this->documentsPaths[] = $documentPath;
+    }
+}
+
+?>
