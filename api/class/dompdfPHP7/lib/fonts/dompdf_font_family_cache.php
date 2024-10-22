@@ -85,5 +85,11 @@ return array (
   'effra light' => array(
     'normal' => $fontDir . '/effra_light_normal_05d7c5a4ddffe77662ee1e6a3a8248e9',
   ),
+  'effrarg' => array(
+    'normal' => $fontDir . '/effrarg_normal_63d18c2613406b4df6213e176580a5d9',
+  ),
+  'effrargb' => array(
+    'bold' => $fontDir . '/effrargb_bold_dc91f914b3eff2b8135ec739d1f8afa3',
+  ),
 );
 }; ?>
