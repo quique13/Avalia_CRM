@@ -1,0 +1,32 @@
+{
+    "rest-client.environmentVariables": {
+        "local": {
+            "version": "",
+            "host": ""
+        },
+        "dev": {
+            "version": "",
+            "host": ""
+        },
+        "production": {
+            "version": "",
+            "host": ""
+        }
+    },
+    "intelephense.environment.phpVersion": "7.3",
+    "intelephense.completion.suggestObjectOperatorStaticMethods": true,
+    "[php]": {
+        "editor.formatOnSave": true
+    },
+    "files.exclude": {
+        "**/.git": true,
+        "**/.svn": true,
+        "**/.hg": true,
+        "**/CVS": true,
+        "**/.DS_Store": true,
+        "**/Thumbs.db": true,
+        "**/node_modules": true,
+        "**/build": true,
+        "**/dist": true
+    }
+}

@@ -1,3 +1,3 @@
-<? 
-    echo "PROBANDO";
-?>
+<?php
+
+echo phpinfo();

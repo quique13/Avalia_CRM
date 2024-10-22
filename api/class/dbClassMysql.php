@@ -1,31 +1,46 @@
 <?php
 class dbClassMysql
 {
+    private $_CONN;
     public function __construct()
-    {        
-        //$db_host = getenv('MYSQL_HOST', true) ?: getenv('MYSQL_HOST');
-        $db_host = '127.0.0.1';
-        //$db_user = getenv('MYSQL_USER', true) ?: getenv('MYSQL_USER');
-        $db_user = 'root';
-        //$db_pwd  = getenv('MYSQL_PASSWORD', true) ?: getenv('MYSQL_PASSWORD');
-        $db_pwd  = '';
-        //$db_name = getenv('MYSQL_DATABASE', true) ?: getenv('MYSQL_DATABASE'); 
-        $db_name = 'crm_avalia'; 
+    {
+        try {
+            $_DIR = explode("class", __DIR__)[0];
+            $path = $_DIR . '.env';
 
-        //echo $db_host. ' - '.$db_user. ' - '.$db_pwd. ' - '.$db_name;
-        $this->conexion = new mysqli($db_host, $db_user, $db_pwd , $db_name);
-        if ($this->conexion->connect_error) {
-            die('Connect Error(' . $this->conexion->connect_errno . ') ' . $this->conexion->connect_error);
+            if (file_exists($path)) {
+                $json = file_get_contents($path);
+                $_ENV = json_decode(trim($json), true);
+
+                $host = $_ENV['host'] ?? 'localhost';
+                $user = $_ENV['user'] ?? '';
+                $pass = $_ENV['password'] ?? '';
+                $db = $_ENV['db'] ?? 'avalia';
+
+                // exit($host . ' - ' . $user . ' - ' . $pass . ' - ' . $db . '-' . $port . "  env: " . $_ENV['host']);
+
+                $this->_CONN = new mysqli($host, $user, $pass, $db);
+                if ($this->_CONN->connect_error) {
+                    die('Connect Error(' . $this->_CONN->connect_errno . ') ' . $this->_CONN->connect_error);
+                }
+                $this->_CONN->set_charset("utf8");
+
+            } else {
+                throw new Exception("No existe el fichero: " . $path);
+            }
+        } catch (PDOException $e) {
+            http_response_code(500);
+            print "¡Error DB!: " . $e->getMessage() . "<br/>";
+            die();
         }
-        $this->conexion->set_charset("utf8");
     }
 
     /** CONSULTA */
     public function db_query($strQuery)
     {
-        $resultado = $this->conexion->query($strQuery);
+        $resultado = $this->_CONN->query($strQuery);
         if (!$resultado) {
-            print "<pre>Ha ocurrido un error intente nuevamente:  <br> Query:  <br>" . $strQuery . " <br> Error: <br>" . $this->conexion->error . "</pre>";
+            print "<pre>Ha ocurrido un error intente nuevamente:  <br> Query:  <br>" . $strQuery . " <br> Error: <br>" . $this->_CONN->error . "</pre>";
             return null;
         } else {
             return $resultado;
@@ -60,10 +75,10 @@ class dbClassMysql
         }
     }
 
-    /** CIERRA LA CONEXION */
+    /** CIERRA LA _CONN */
     public function db_close()
     {
-        return $this->conexion->close();
+        return $this->_CONN->close();
     }
 
     /** OBTIENE LA ULTIMA IDENTIFICACION DE LA INSERCION QUE SE HA GENERADO */
