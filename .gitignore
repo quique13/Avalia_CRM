@@ -2,7 +2,7 @@
 node_module/
 
 # API
-./api/public/*
+api/public/*
 !**/api/public/img/logo.png
 mysql
 queryyyyy.txt
