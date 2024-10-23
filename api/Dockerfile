@@ -1,8 +1,5 @@
 FROM php:7.3-apache
 
-COPY . /var/www/html/
-RUN chown -R www-data:www-data /var/www/html/img
-
 # https://github.com/mlocati/docker-php-extension-installer
 COPY --from=mlocati/php-extension-installer /usr/bin/install-php-extensions /usr/bin/
 RUN install-php-extensions gd mysqli pdo_sqlsrv pdo_odbc wddx intl calendar exif pcntl bcmath zip
